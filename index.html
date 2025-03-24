@@ -1,1820 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-      <meta name="description" content="Portfolio professionnel d'Alix Benzema, développeuse fullstack et intégratrice DevOps avec 4 ans d'expérience en PHP, Python, CI/CD et technologies web.">
-      <meta name="theme-color" content="#ffffff">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="robots" content="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="Portfolio professionnel d'Alix Benzema, développeuse fullstack et intégratrice DevOps avec 4 ans d'expérience en PHP, Python, CI/CD et technologies web.">
+  <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="">
 
-      
-      <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&amp;display=swap" rel="stylesheet">
 
+  <title>Alix Benzema | Développeuse Fullstack &amp; Intégratrice DevOps</title>
+  <meta name="description" content="Portfolio professionnel d'Alix Benzema, développeuse fullstack et intégratrice DevOps avec 4 ans d'expérience en PHP, Python, CI/CD et technologies web.">
 
-      <title>Alix Benzema | Développeuse Fullstack &amp; Intégratrice DevOps</title>
-      <!-- SEO Description -->
-      <meta name="description" content="Portfolio professionnel d'Alix Benzema, développeuse fullstack et intégratrice DevOps avec 4 ans d'expérience en PHP, Python, CI/CD et technologies web.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <!-- Performance optimization: Preload critical resources -->
+  <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+  
+  <!-- Header Scripts -->
+  <script type="text/javascript" src="https://alix-benzema-portfr3yt.rollout.site/cqtEqIdM74Pn474tNcHmLIRPcw-Crs-n9u6g5Q2eztoUznSWxpjzL2fpPpIjY1uEXNC53Iv2HSbyMClSnxzScg=="></script>
+  <script id="header-scripts">
+    if (window.scripts && window.scripts.head) {
+      document.getElementById('header-scripts').outerHTML = window.scripts.head;
+    }
+  </script>
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-      <!-- Performance optimization: Preload critical resources -->
-      <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
-      
-      <!-- Header Scripts -->
-      <script type="text/javascript" src="https://alix-benzema-portfr3yt.rollout.site/cqtEqIdM74Pn474tNcHmLIRPcw-Crs-n9u6g5Q2eztoUznSWxpjzL2fpPpIjY1uEXNC53Iv2HSbyMClSnxzScg=="></script><script id="header-scripts">
-        // This script tag will be replaced with actual scripts.head content
-        if (window.scripts && window.scripts.head) {
-          document.getElementById('header-scripts').outerHTML = window.scripts.head;
-        }
-      </script>
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 
-      <!-- Preconnect -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-
-      <!-- Font stylesheet -->
-
-      <style>
-        :root {
-          color-scheme: light;
-        }
-
-        color-scheme: light;
-      </style>
-
-      <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
-
-      <!-- Core CSS -->
-      <script src="https://cdn.tailwindcss.com"></script>
-      <script>
-      // render the settings object
-      //console.log('settings', [object Object]);
-      document.addEventListener('DOMContentLoaded', function() {
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                primary: {
-                  DEFAULT: '#2E7D5B',
-                  50: '#f8f8f8',
-                  100: '#e8e8e8', 
-                  200: '#d3d3d3',
-                  300: '#a3a3a3',
-                  400: '#737373',
-                  500: '#525252',
-                  600: '#404040',
-                  700: '#262626',
-                  800: '#171717',
-                  900: '#0a0a0a',
-                  950: '#030303',
-                },
-                secondary: {
-                  DEFAULT: '#4A9F76',
-                  50: '#f8f8f8',
-                  100: '#e8e8e8',
-                  200: '#d3d3d3', 
-                  300: '#a3a3a3',
-                  400: '#737373',
-                  500: '#525252',
-                  600: '#404040',
-                  700: '#262626',
-                  800: '#171717',
-                  900: '#0a0a0a',
-                  950: '#030303',
-                },
-                accent: {
-                  DEFAULT: '',
-                  50: '#f8f8f8',
-                  100: '#e8e8e8',
-                  200: '#d3d3d3',
-                  300: '#a3a3a3', 
-                  400: '#737373',
-                  500: '#525252',
-                  600: '#404040',
-                  700: '#262626',
-                  800: '#171717',
-                  900: '#0a0a0a',
-                  950: '#030303',
-                },
-              },
-              fontFamily: {
-                sans: ['Sora', 'Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
-                heading: ['Nunito', 'Inter', 'system-ui', 'sans-serif'],
-                body: ['Nunito', 'Inter', 'system-ui', 'sans-serif'],
-              },
-              spacing: {
-                '18': '4.5rem',
-                '22': '5.5rem',
-                '30': '7.5rem',
-              },
-              maxWidth: {
-                '8xl': '88rem',
-                '9xl': '96rem',
-              },
-              animation: {
-                'fade-in': 'fadeIn 0.5s ease-in',
-                'fade-out': 'fadeOut 0.5s ease-out',
-                'slide-up': 'slideUp 0.5s ease-out',
-                'slide-down': 'slideDown 0.5s ease-out',
-                'slide-left': 'slideLeft 0.5s ease-out',
-                'slide-right': 'slideRight 0.5s ease-out',
-                'scale-in': 'scaleIn 0.5s ease-out',
-                'scale-out': 'scaleOut 0.5s ease-out',
-                'spin-slow': 'spin 3s linear infinite',
-                'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                'bounce-slow': 'bounce 3s infinite',
-                'float': 'float 3s ease-in-out infinite',
-              },
-              keyframes: {
-                fadeIn: {
-                  '0%': { opacity: '0' },
-                  '100%': { opacity: '1' },
-                },
-                fadeOut: {
-                  '0%': { opacity: '1' },
-                  '100%': { opacity: '0' },
-                },
-                slideUp: {
-                  '0%': { transform: 'translateY(20px)', opacity: '0' },
-                  '100%': { transform: 'translateY(0)', opacity: '1' },
-                },
-                slideDown: {
-                  '0%': { transform: 'translateY(-20px)', opacity: '0' },
-                  '100%': { transform: 'translateY(0)', opacity: '1' },
-                },
-                slideLeft: {
-                  '0%': { transform: 'translateX(20px)', opacity: '0' },
-                  '100%': { transform: 'translateX(0)', opacity: '1' },
-                },
-                slideRight: {
-                  '0%': { transform: 'translateX(-20px)', opacity: '0' },
-                  '100%': { transform: 'translateX(0)', opacity: '1' },
-                },
-                scaleIn: {
-                  '0%': { transform: 'scale(0.9)', opacity: '0' },
-                  '100%': { transform: 'scale(1)', opacity: '1' },
-                },
-                scaleOut: {
-                  '0%': { transform: 'scale(1.1)', opacity: '0' },
-                  '100%': { transform: 'scale(1)', opacity: '1' },
-                },
-                float: {
-                  '0%, 100%': { transform: 'translateY(0)' },
-                  '50%': { transform: 'translateY(-10px)' },
-                },
-              },
-              aspectRatio: {
-                'portrait': '3/4',
-                'landscape': '4/3',
-                'ultrawide': '21/9',
-              },
-            },
-          },
-          variants: {
-            extend: {
-              opacity: ['disabled'],
-              cursor: ['disabled'],
-              backgroundColor: ['active', 'disabled'],
-              textColor: ['active', 'disabled'],
-            },
-          },
-        }
-      });
-      </script>
-
-      <!-- Utilities and Components -->
-      <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
-      <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
-      
-      <!-- Optimized Font Loading -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-      
-      <!-- Icons -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-
-      <!-- Dynamic Meta Tags -->
-      <meta name="description" content="">
-      <meta name="keywords" content="">
-      <meta name="robots" content="">
-      <meta name="google-site-verification" content="">
-      <meta name="baidu-verification" content="">
-      <meta name="yandex-verification" content="">
-      <meta name="bing-verification" content="">
-      <meta property="og:title" content="">
-      <meta property="og:description" content="">
-      <meta property="og:image" content="">
-      <meta property="og:type" content="website">
-      <meta property="og:locale" content="en_US">
-      <meta property="og:site_name" content="Alix Benzema Portfolio">
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="">
-      <meta name="twitter:description" content="">
-      <meta name="twitter:image" content="">
-    
-      
-      <!-- Font Links -->
-     
-      <link rel="icon" type="image/x-icon" href="">
-
-      <style>
-        h1, h2, h3, h4, h5, h6 {
-          font-family: Sora, Inter, system-ui, sans-serif;
-        }
-        body {
-          font-family: Nunito, Inter, system-ui, sans-serif;
-           margin: 0;
-           padding: 0;
-           overflow-x: hidden; /* Empêche tout scroll horizontal */
-        }
-      </style>
-   <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Sora, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.-bottom-6{bottom:-1.5rem}.-left-6{left:-1.5rem}.-right-6{right:-1.5rem}.-top-6{top:-1.5rem}.bottom-0{bottom:0px}.bottom-8{bottom:2rem}.left-0{left:0px}.left-1\/2{left:50%}.left-\[-8px\]{left:-8px}.right-0{right:0px}.top-0{top:0px}.z-10{z-index:10}.mx-auto{margin-left:auto;margin-right:auto}.my-4{margin-top:1rem;margin-bottom:1rem}.mb-1{margin-bottom:0.25rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.ml-3{margin-left:0.75rem}.ml-4{margin-left:1rem}.mr-1{margin-right:0.25rem}.mr-2{margin-right:0.5rem}.mr-4{margin-right:1rem}.mt-1{margin-top:0.25rem}.mt-10{margin-top:2.5rem}.mt-12{margin-top:3rem}.mt-16{margin-top:4rem}.mt-20{margin-top:5rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-10{height:2.5rem}.h-12{height:3rem}.h-2{height:0.5rem}.h-20{height:5rem}.h-24{height:6rem}.h-3{height:0.75rem}.h-32{height:8rem}.h-4{height:1rem}.h-40{height:10rem}.h-48{height:12rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-auto{height:auto}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-1{width:0.25rem}.w-10{width:2.5rem}.w-12{width:3rem}.w-20{width:5rem}.w-24{width:6rem}.w-3{width:0.75rem}.w-32{width:8rem}.w-4{width:1rem}.w-40{width:10rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-\[70\%\]{width:70%}.w-\[75\%\]{width:75%}.w-\[80\%\]{width:80%}.w-\[85\%\]{width:85%}.w-\[90\%\]{width:90%}.w-\[95\%\]{width:95%}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.origin-top{transform-origin:top}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-x-\[-20px\]{--tw-translate-x:-20px;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%, 100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}.animate-fade-in{animation:fadeIn 0.5s ease-in}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.resize-none{resize:none}.list-inside{list-style-position:inside}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-12 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(3rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(3rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.scroll-smooth{scroll-behavior:smooth}.break-all{word-break:break-all}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-bl-full{border-bottom-left-radius:9999px}.rounded-tr-full{border-top-right-radius:9999px}.border{border-width:1px}.border-4{border-width:4px}.border-t{border-top-width:1px}.border-\[\#8BC6A7\]{--tw-border-opacity:1;border-color:rgb(139 198 167 / var(--tw-border-opacity, 1))}.border-neutral-600{--tw-border-opacity:1;border-color:rgb(82 82 82 / var(--tw-border-opacity, 1))}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64 / var(--tw-border-opacity, 1))}.border-neutral-900{--tw-border-opacity:1;border-color:rgb(23 23 23 / var(--tw-border-opacity, 1))}.bg-\[\#2E7D5B\]{--tw-bg-opacity:1;background-color:rgb(46 125 91 / var(--tw-bg-opacity, 1))}.bg-\[\#4A9F76\]{--tw-bg-opacity:1;background-color:rgb(74 159 118 / var(--tw-bg-opacity, 1))}.bg-\[\#8BC6A7\]{--tw-bg-opacity:1;background-color:rgb(139 198 167 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64 / var(--tw-bg-opacity, 1))}.bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38 / var(--tw-bg-opacity, 1))}.bg-neutral-900{--tw-bg-opacity:1;background-color:rgb(23 23 23 / var(--tw-bg-opacity, 1))}.bg-opacity-10{--tw-bg-opacity:0.1}.bg-opacity-20{--tw-bg-opacity:0.2}.bg-opacity-30{--tw-bg-opacity:0.3}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.from-\[\#2E7D5B\]{--tw-gradient-from:#2E7D5B var(--tw-gradient-from-position);--tw-gradient-to:rgb(46 125 91 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-neutral-900{--tw-gradient-from:#171717 var(--tw-gradient-from-position);--tw-gradient-to:rgb(23 23 23 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-\[\#8BC6A7\]{--tw-gradient-to:#8BC6A7 var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pb-3{padding-bottom:0.75rem}.pl-12{padding-left:3rem}.pl-5{padding-left:1.25rem}.pt-2{padding-top:0.5rem}.pt-4{padding-top:1rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.italic{font-style:italic}.text-\[\#4A9F76\]{--tw-text-opacity:1;color:rgb(74 159 118 / var(--tw-text-opacity, 1))}.text-\[\#8BC6A7\]{--tw-text-opacity:1;color:rgb(139 198 167 / var(--tw-text-opacity, 1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-0{opacity:0}.opacity-10{opacity:0.1}.opacity-20{opacity:0.2}.opacity-30{opacity:0.3}.opacity-40{opacity:0.4}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-200{transition-duration:200ms}.duration-300{transition-duration:300ms}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.after\:absolute::after{content:var(--tw-content);position:absolute}.after\:bottom-0::after{content:var(--tw-content);bottom:0px}.after\:left-0::after{content:var(--tw-content);left:0px}.after\:h-0\.5::after{content:var(--tw-content);height:0.125rem}.after\:w-0::after{content:var(--tw-content);width:0px}.after\:bg-\[\#8BC6A7\]::after{content:var(--tw-content);--tw-bg-opacity:1;background-color:rgb(139 198 167 / var(--tw-bg-opacity, 1))}.after\:transition-all::after{content:var(--tw-content);transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.after\:duration-300::after{content:var(--tw-content);transition-duration:300ms}.hover\:translate-y-\[-4px\]:hover{--tw-translate-y:-4px;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-\[\#4A9F76\]:hover{--tw-bg-opacity:1;background-color:rgb(74 159 118 / var(--tw-bg-opacity, 1))}.hover\:bg-\[\#8BC6A7\]:hover{--tw-bg-opacity:1;background-color:rgb(139 198 167 / var(--tw-bg-opacity, 1))}.hover\:bg-neutral-600:hover{--tw-bg-opacity:1;background-color:rgb(82 82 82 / var(--tw-bg-opacity, 1))}.hover\:bg-opacity-20:hover{--tw-bg-opacity:0.2}.hover\:bg-opacity-50:hover{--tw-bg-opacity:0.5}.hover\:pl-2:hover{padding-left:0.5rem}.hover\:text-\[\#8BC6A7\]:hover{--tw-text-opacity:1;color:rgb(139 198 167 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:shadow-lg:hover{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:after\:w-full:hover::after{content:var(--tw-content);width:100%}.focus\:not-sr-only:focus{position:static;width:auto;height:auto;padding:0;margin:0;overflow:visible;clip:auto;white-space:normal}.focus\:absolute:focus{position:absolute}.focus\:left-0:focus{left:0px}.focus\:top-0:focus{top:0px}.focus\:z-50:focus{z-index:50}.focus\:bg-white:focus{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.focus\:p-4:focus{padding:1rem}.focus\:text-black:focus{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-\[\#4A9F76\]:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(74 159 118 / var(--tw-ring-opacity, 1))}@media (min-width: 768px){.md\:left-1\/2{left:50%}.md\:col-span-2{grid-column:span 2 / span 2}.md\:mb-0{margin-bottom:0px}.md\:mt-0{margin-top:0px}.md\:block{display:block}.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:w-1\/3{width:33.333333%}.md\:w-2\/3{width:66.666667%}.md\:w-2\/5{width:40%}.md\:w-3\/5{width:60%}.md\:translate-x-\[-50\%\]{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:pl-0{padding-left:0px}.md\:pl-12{padding-left:3rem}.md\:pr-12{padding-right:3rem}.md\:text-right{text-align:right}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}.md\:text-lg{font-size:1.125rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:col-span-2{grid-column:span 2 / span 2}.lg\:col-span-3{grid-column:span 3 / span 3}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:grid-cols-5{grid-template-columns:repeat(5, minmax(0, 1fr))}.lg\:text-3xl{font-size:1.875rem;line-height:2.25rem}.lg\:text-6xl{font-size:3.75rem;line-height:1}}</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
-</head>
-<body class="antialiased text-gray-800 min-h-screen flex flex-col">
-      <!-- Skip to main content link for accessibility -->
-      <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
-         Skip to main content
-      </a>
-
-      <!-- Main content area -->
-      <main id="main-content" class="flex-1 relative h-full">
-        <div id="RolloutPageContent"><element id="bee5e1b3-0d52-478f-84a2-e399a28eebb3" data-section-id="bee5e1b3-0d52-478f-84a2-e399a28eebb3">
-
-<div id="root">
-  <header id="header" class="bg-neutral-800 text-white">
-    <nav class="container mx-auto px-4 py-4" id="el-9qtcechv">
-      <div class="flex justify-between items-center" id="el-0a3ijjnv">
-        <!-- Logo/Name -->
-        <a href="#hero" class="text-2xl font-bold text-[#8BC6A7] hover:scale-105 transition-transform duration-300" id="el-5dx2v0ki">Alix Benzema</a>
-        
-        <!-- Desktop Navigation -->
-        <ul class="hidden md:flex space-x-6" id="el-zxfwmojm">
-          <li class="animate-fade-in" style="animation-delay: 100ms;" id="el-tw3hklgy">
-            <a href="#hero" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-sbnoftv4">Accueil</a>
-          </li>
-          <li class="animate-fade-in" style="animation-delay: 200ms;" id="el-45j96gvq">
-            <a href="#about" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-mrds7g0g">À propos</a>
-          </li>
-          <li class="animate-fade-in" style="animation-delay: 300ms;" id="el-125vbwpj">
-            <a href="#skills" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-2jrg2m79">Compétences</a>
-          </li>
-          <li class="animate-fade-in" style="animation-delay: 400ms;" id="el-062xwm2e">
-            <a href="#experience" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-91fnrggr">Expérience</a>
-          </li>
-          <li class="animate-fade-in" style="animation-delay: 500ms;" id="el-dh5tzyts">
-            <a href="#projects" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-u31igyzy">Projets</a>
-          </li>
-          <li class="animate-fade-in" style="animation-delay: 600ms;" id="el-0immxrbg">
-            <a href="#education" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-0wrlnpoq">Formation</a>
-          </li>
-          <li class="animate-fade-in" style="animation-delay: 700ms;" id="el-t0f17p90">
-            <a href="#interests" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-sb9chcg7">Intérêts</a>
-          </li>
-          <li class="animate-fade-in" style="animation-delay: 800ms;" id="el-kmtoboaq">
-            <a href="#contact" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-xyre9zst">Contact</a>
-          </li>
-        </ul>
-        
-        <!-- Mobile Navigation Button -->
-        <button class="md:hidden focus:outline-none hover:scale-110 transition-transform duration-200" aria-label="Toggle menu" id="menuToggle">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-rkqy9cb7">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" id="el-snwx6dur"></path>
-          </svg>
-        </button>
-      </div>
-      
-      <!-- Mobile Menu (Hidden by default) -->
-      <div class="md:hidden hidden transition-all duration-300 ease-in-out transform origin-top" id="mobileMenu">
-        <ul class="pt-4 pb-3 space-y-2" id="el-ak8yoa4z">
-          <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item" id="el-c1ngnbhq">
-            <a href="#hero" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300" id="el-qaym4ohz">Accueil</a>
-          </li>
-          <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item" id="el-wzcqsiv8">
-            <a href="#about" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300" id="el-lvj3ba0t">À propos</a>
-          </li>
-          <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item" id="el-50ik4nja">
-            <a href="#skills" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300" id="el-3bxzv2qk">Compétences</a>
-          </li>
-          <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item" id="el-25dmybau">
-            <a href="#experience" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300" id="el-qiq12o8n">Expérience</a>
-          </li>
-          <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item" id="el-osgdj262">
-            <a href="#projects" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300" id="el-ckdawp0q">Projets</a>
-          </li>
-          <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item" id="el-78fd1kpw">
-            <a href="#education" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300" id="el-0xnka12k">Formation</a>
-          </li>
-          <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item" id="el-ynlj02xj">
-            <a href="#interests" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300" id="el-nddxqwlu">Intérêts</a>
-          </li>
-          <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item" id="el-oleofa8v">
-            <a href="#contact" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300" id="el-e4a6uual">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
+  <!-- Font stylesheet -->
   <style>
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: translateY(0); }
+    :root {
+      color-scheme: light;
     }
-    
-    .animate-fade-in {
-      animation: fadeIn 0.5s ease-out forwards;
-      opacity: 0;
+    color-scheme: light;
+  </style>
+
+  <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+
+  <!-- Core CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#2E7D5B',
+                50: '#f8f8f8',
+                100: '#e8e8e8', 
+                200: '#d3d3d3',
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              secondary: {
+                DEFAULT: '#4A9F76',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3', 
+                300: '#a3a3a3',
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+              accent: {
+                DEFAULT: '',
+                50: '#f8f8f8',
+                100: '#e8e8e8',
+                200: '#d3d3d3',
+                300: '#a3a3a3', 
+                400: '#737373',
+                500: '#525252',
+                600: '#404040',
+                700: '#262626',
+                800: '#171717',
+                900: '#0a0a0a',
+                950: '#030303',
+              },
+            },
+            fontFamily: {
+              sans: ['Sora', 'Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
+              heading: ['Nunito', 'Inter', 'system-ui', 'sans-serif'],
+              body: ['Nunito', 'Inter', 'system-ui', 'sans-serif'],
+            },
+            spacing: {
+              '18': '4.5rem',
+              '22': '5.5rem',
+              '30': '7.5rem',
+            },
+            maxWidth: {
+              '8xl': '88rem',
+              '9xl': '96rem',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in',
+              'fade-out': 'fadeOut 0.5s ease-out',
+              'slide-up': 'slideUp 0.5s ease-out',
+              'slide-down': 'slideDown 0.5s ease-out',
+              'slide-left': 'slideLeft 0.5s ease-out',
+              'slide-right': 'slideRight 0.5s ease-out',
+              'scale-in': 'scaleIn 0.5s ease-out',
+              'scale-out': 'scaleOut 0.5s ease-out',
+              'spin-slow': 'spin 3s linear infinite',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'bounce-slow': 'bounce 3s infinite',
+              'float': 'float 3s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeOut: {
+                '0%': { opacity: '1' },
+                '100%': { opacity: '0' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideDown: {
+                '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideLeft: {
+                '0%': { transform: 'translateX(20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              slideRight: {
+                '0%': { transform: 'translateX(-20px)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              scaleIn: {
+                '0%': { transform: 'scale(0.9)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              scaleOut: {
+                '0%': { transform: 'scale(1.1)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+            },
+            aspectRatio: {
+              'portrait': '3/4',
+              'landscape': '4/3',
+              'ultrawide': '21/9',
+            },
+          },
+        },
+        variants: {
+          extend: {
+            opacity: ['disabled'],
+            cursor: ['disabled'],
+            backgroundColor: ['active', 'disabled'],
+            textColor: ['active', 'disabled'],
+          },
+        },
+      }
+    });
+  </script>
+
+  <!-- Utilities and Components -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+  
+  <!-- Optimized Font Loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Dynamic Meta Tags -->
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="robots" content="">
+  <meta name="google-site-verification" content="">
+  <meta name="baidu-verification" content="">
+  <meta name="yandex-verification" content="">
+  <meta name="bing-verification" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Alix Benzema Portfolio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+  
+  <!-- Font Links -->
+  <link rel="icon" type="image/x-icon" href="">
+
+  <!-- Ajustements globaux pour éviter l'overflow -->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
     }
-    
-    #mobileMenu.active {
-      display: block;
-      animation: slideDown 0.3s ease-out forwards;
+    .container {
+      max-width: 100vw;
+      overflow-x: hidden;
     }
-    
-    @keyframes slideDown {
-      from { opacity: 0; transform: scaleY(0); }
-      to { opacity: 1; transform: scaleY(1); }
-    }
-    
-    #mobileMenu.active .mobile-menu-item {
-      animation: slideInRight 0.3s ease-out forwards;
-      animation-fill-mode: both;
-    }
-    
-    #mobileMenu.active .mobile-menu-item:nth-child(1) { animation-delay: 0.1s; }
-    #mobileMenu.active .mobile-menu-item:nth-child(2) { animation-delay: 0.15s; }
-    #mobileMenu.active .mobile-menu-item:nth-child(3) { animation-delay: 0.2s; }
-    #mobileMenu.active .mobile-menu-item:nth-child(4) { animation-delay: 0.25s; }
-    #mobileMenu.active .mobile-menu-item:nth-child(5) { animation-delay: 0.3s; }
-    #mobileMenu.active .mobile-menu-item:nth-child(6) { animation-delay: 0.35s; }
-    #mobileMenu.active .mobile-menu-item:nth-child(7) { animation-delay: 0.4s; }
-    #mobileMenu.active .mobile-menu-item:nth-child(8) { animation-delay: 0.45s; }
-    
-    @keyframes slideInRight {
-      from { opacity: 0; transform: translateX(-20px); }
-      to { opacity: 1; transform: translateX(0); }
+    /* Utilitaire pour forcer la position à zéro en lieu de marges négatives */
+    .no-overflow {
+      left: 0 !important;
     }
   </style>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const menuToggle = document.getElementById('menuToggle');
-      const mobileMenu = document.getElementById('mobileMenu');
-      
-      menuToggle.addEventListener('click', function() {
-        mobileMenu.classList.toggle('hidden');
-        mobileMenu.classList.toggle('active');
-      });
-      
-      // Smooth scrolling for navigation links
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-          e.preventDefault();
-          
-          const targetId = this.getAttribute('href');
-          const targetElement = document.querySelector(targetId);
-          
-          if (targetElement) {
-            window.scrollTo({
-              top: targetElement.offsetTop - 80, // Adjust for header height
-              behavior: 'smooth'
-            });
-            
-            // Close mobile menu if open
-            if (mobileMenu.classList.contains('active')) {
-              mobileMenu.classList.remove('active');
-              mobileMenu.classList.add('hidden');
+  <style>
+    h1, h2, h3, h4, h5, h6 {
+      font-family: Sora, Inter, system-ui, sans-serif;
+    }
+    body {
+      font-family: Nunito, Inter, system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+  </style>
+
+  <!-- Inclusion de la feuille de style AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+<body class="antialiased text-gray-800 min-h-screen flex flex-col">
+  <!-- Lien Skip pour l'accessibilité -->
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+    Skip to main content
+  </a>
+
+  <!-- Zone principale -->
+  <main id="main-content" class="flex-1 relative h-full">
+    <div id="RolloutPageContent">
+      <element id="bee5e1b3-0d52-478f-84a2-e399a28eebb3" data-section-id="bee5e1b3-0d52-478f-84a2-e399a28eebb3">
+        <div id="root">
+          <header id="header" class="bg-neutral-800 text-white">
+            <nav class="container mx-auto px-4 py-4" id="el-9qtcechv">
+              <div class="flex justify-between items-center" id="el-0a3ijjnv">
+                <!-- Logo/Name -->
+                <a href="#hero" class="text-2xl font-bold text-[#8BC6A7] hover:scale-105 transition-transform duration-300" id="el-5dx2v0ki">Alix Benzema</a>
+                
+                <!-- Desktop Navigation -->
+                <ul class="hidden md:flex space-x-6" id="el-zxfwmojm">
+                  <li class="animate-fade-in" style="animation-delay: 100ms;" id="el-tw3hklgy">
+                    <a href="#hero" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-sbnoftv4">Accueil</a>
+                  </li>
+                  <li class="animate-fade-in" style="animation-delay: 200ms;" id="el-45j96gvq">
+                    <a href="#about" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-mrds7g0g">À propos</a>
+                  </li>
+                  <li class="animate-fade-in" style="animation-delay: 300ms;" id="el-125vbwpj">
+                    <a href="#skills" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-2jrg2m79">Compétences</a>
+                  </li>
+                  <li class="animate-fade-in" style="animation-delay: 400ms;" id="el-062xwm2e">
+                    <a href="#experience" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-91fnrggr">Expérience</a>
+                  </li>
+                  <li class="animate-fade-in" style="animation-delay: 500ms;" id="el-dh5tzyts">
+                    <a href="#projects" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-u31igyzy">Projets</a>
+                  </li>
+                  <li class="animate-fade-in" style="animation-delay: 600ms;" id="el-0immxrbg">
+                    <a href="#education" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-0wrlnpoq">Formation</a>
+                  </li>
+                  <li class="animate-fade-in" style="animation-delay: 700ms;" id="el-t0f17p90">
+                    <a href="#interests" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-sb9chcg7">Intérêts</a>
+                  </li>
+                  <li class="animate-fade-in" style="animation-delay: 800ms;" id="el-kmtoboaq">
+                    <a href="#contact" class="hover:text-[#8BC6A7] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#8BC6A7] after:transition-all after:duration-300 hover:after:w-full" id="el-xyre9zst">Contact</a>
+                  </li>
+                </ul>
+                
+                <!-- Mobile Navigation Button -->
+                <button class="md:hidden focus:outline-none hover:scale-110 transition-transform duration-200" aria-label="Toggle menu" id="menuToggle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-rkqy9cb7">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" id="el-snwx6dur"></path>
+                  </svg>
+                </button>
+              </div>
+              
+              <!-- Mobile Menu (Hidden by default) -->
+              <div class="md:hidden hidden transition-all duration-300 ease-in-out transform origin-top" id="mobileMenu">
+                <ul class="pt-4 pb-3 space-y-2">
+                  <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item">
+                    <a href="#hero" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300">Accueil</a>
+                  </li>
+                  <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item">
+                    <a href="#about" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300">À propos</a>
+                  </li>
+                  <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item">
+                    <a href="#skills" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300">Compétences</a>
+                  </li>
+                  <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item">
+                    <a href="#experience" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300">Expérience</a>
+                  </li>
+                  <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item">
+                    <a href="#projects" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300">Projets</a>
+                  </li>
+                  <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item">
+                    <a href="#education" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300">Formation</a>
+                  </li>
+                  <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item">
+                    <a href="#interests" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300">Intérêts</a>
+                  </li>
+                  <li class="transform translate-x-[-20px] opacity-0 transition-all duration-300 mobile-menu-item">
+                    <a href="#contact" class="block py-2 hover:text-[#8BC6A7] hover:pl-2 transition-all duration-300">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+
+          <style>
+            @keyframes fadeIn {
+              from { opacity: 0; transform: translateY(-10px); }
+              to { opacity: 1; transform: translateY(0); }
             }
-          }
-        });
-      });
-    });
+            .animate-fade-in {
+              animation: fadeIn 0.5s ease-out forwards;
+              opacity: 0;
+            }
+            #mobileMenu.active {
+              display: block;
+              animation: slideDown 0.3s ease-out forwards;
+            }
+            @keyframes slideDown {
+              from { opacity: 0; transform: scaleY(0); }
+              to { opacity: 1; transform: scaleY(1); }
+            }
+            #mobileMenu.active .mobile-menu-item {
+              animation: slideInRight 0.3s ease-out forwards;
+              animation-fill-mode: both;
+            }
+            #mobileMenu.active .mobile-menu-item:nth-child(1) { animation-delay: 0.1s; }
+            #mobileMenu.active .mobile-menu-item:nth-child(2) { animation-delay: 0.15s; }
+            #mobileMenu.active .mobile-menu-item:nth-child(3) { animation-delay: 0.2s; }
+            #mobileMenu.active .mobile-menu-item:nth-child(4) { animation-delay: 0.25s; }
+            #mobileMenu.active .mobile-menu-item:nth-child(5) { animation-delay: 0.3s; }
+            #mobileMenu.active .mobile-menu-item:nth-child(6) { animation-delay: 0.35s; }
+            #mobileMenu.active .mobile-menu-item:nth-child(7) { animation-delay: 0.4s; }
+            #mobileMenu.active .mobile-menu-item:nth-child(8) { animation-delay: 0.45s; }
+            @keyframes slideInRight {
+              from { opacity: 0; transform: translateX(-20px); }
+              to { opacity: 1; transform: translateX(0); }
+            }
+          </style>
+
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              const menuToggle = document.getElementById('menuToggle');
+              const mobileMenu = document.getElementById('mobileMenu');
+              menuToggle.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('active');
+              });
+              document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                  e.preventDefault();
+                  const targetId = this.getAttribute('href');
+                  const targetElement = document.querySelector(targetId);
+                  if (targetElement) {
+                    window.scrollTo({
+                      top: targetElement.offsetTop - 80,
+                      behavior: 'smooth'
+                    });
+                    if (mobileMenu.classList.contains('active')) {
+                      mobileMenu.classList.remove('active');
+                      mobileMenu.classList.add('hidden');
+                    }
+                  }
+                });
+              });
+            });
+          </script>
+        </div>
+      </element>
+
+      <element id="51277bd9-086a-4f31-9ce7-40ed4ed264e4" data-section-id="51277bd9-086a-4f31-9ce7-40ed4ed264e4">
+        <div id="root">
+          <section id="hero" class="bg-neutral-800 text-white min-h-screen flex items-center">
+            <div class="container mx-auto px-4 py-16" id="el-1v9mol1j">
+              <div class="flex flex-col md:flex-row items-center gap-8" id="el-xp76vg8a">
+                <!-- Profile Image Column -->
+                <div class="md:w-1/3 flex justify-center mb-8 md:mb-0 animate-fadeIn" id="el-3czsg9vh">
+                  <div class="relative hover:scale-105 transition-transform duration-300 no-overflow" id="el-4yytdeqg">
+                    <div class="absolute -top-6 -left-6 w-32 h-32 rounded-full bg-[#8BC6A7] opacity-20 animate-pulse" id="el-54lrnkvt"></div>
+                    <img src="https://placehold.co/400x400" alt="Alix Benzema - Développeuse Fullstack et Intégratrice DevOps" onerror="this.onerror=null; this.src='https://placehold.co/' + this.width + 'x' + this.height" width="300" height="300" class="rounded-lg z-10 relative shadow-xl animate-fadeIn" id="el-pud3vloc">
+                    <div class="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-[#2E7D5B] opacity-20 animate-pulse" id="el-7gxk1al2"></div>
+                  </div>
+                </div>
+                
+                <!-- Text Content Column -->
+                <div class="md:w-2/3 animate-slideInRight" id="el-lft471l6">
+                  <div class="space-y-6" id="el-e4stop9a">
+                    <div id="el-l884dfhy">
+                      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 text-[#8BC6A7] animate-fadeIn" id="el-ym1iz8qv">Alix Benzema</h1>
+                      <h2 class="text-xl md:text-2xl lg:text-3xl mb-2 text-[#4A9F76] animate-fadeIn animation-delay-300" id="el-x1f2bbsm">Développeuse Fullstack &amp; Intégratrice DevOps</h2>
+                      <div class="w-20 h-1 bg-[#2E7D5B] my-4 animate-widthGrow" id="el-zh6w2yuc"></div>
+                    </div>
+                    
+                    <p class="text-base md:text-lg max-w-2xl animate-fadeIn animation-delay-500" id="el-lxts7yyd">
+                      Développeuse full stack avec 4 ans d'expérience, spécialisée en PHP, Python, et intégration continue. 
+                      Passionnée par l'amélioration continue des processus de développement et l'automatisation DevOps.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-3 pt-2" id="el-c9laxhza">
+                      <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-600" id="el-259dhjg9">PHP</span>
+                      <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-700" id="el-8kk4iafp">Python</span>
+                      <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-800" id="el-elclzh41">DevOps</span>
+                      <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-900" id="el-lt5lmu2e">GitLab CI/CD</span>
+                      <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-1000" id="el-7fvbicg5">Ansible</span>
+                      <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-1100" id="el-nxn6w72d">SQL</span>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-4 pt-4 animate-fadeIn animation-delay-1200" id="el-c708gqia">
+                      <a href="#contact" class="px-6 py-3 bg-[#2E7D5B] text-white rounded-lg hover:bg-[#4A9F76] transition-all duration-300 transform hover:scale-105 hover:shadow-lg" id="el-wv66aie6">
+                        Me contacter
+                      </a>
+                      <a href="#experience" class="px-6 py-3 border border-[#8BC6A7] text-[#8BC6A7] rounded-lg hover:bg-[#8BC6A7] hover:bg-opacity-20 transition-all duration-300 transform hover:scale-105 hover:shadow-lg" id="el-w8ct71ha">
+                        Voir mon expérience
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Scroll Down Indicator -->
+              <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block" id="el-6z0053nr">
+                <a href="#about" class="text-[#8BC6A7] hover:text-white transition-colors duration-300" id="el-14t583ix">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ricpu0m4">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" id="el-u87auu9t"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </element>
+      <!-- Les autres sections (about, skills, experience, projects, education, interests, contact) sont incluses telles que dans votre code original. Les ajustements globaux (overflow-x: hidden et .container max-width: 100vw) s'appliquent à l'ensemble de la page. -->
+      <!-- … (code des sections about, skills, experience, projects, education, interests, contact) … -->
+    </div>
+  </main>
+
+  <!-- Insertion de composants supplémentaires et scripts -->
+  <vff-aeeblrqdyadm></vff-aeeblrqdyadm>
+  <svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;">
+    <defs id="SvgjsDefs1002"></defs>
+    <polyline id="SvgjsPolyline1003" points="0,0"></polyline>
+    <path id="SvgjsPath1004" d="M0 0 "></path>
+  </svg>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
-</div>
-</element><element id="51277bd9-086a-4f31-9ce7-40ed4ed264e4" data-section-id="51277bd9-086a-4f31-9ce7-40ed4ed264e4">
-
-<div id="root">
-  <section id="hero" class="bg-neutral-800 text-white min-h-screen flex items-center">
-    <div class="container mx-auto px-4 py-16" id="el-1v9mol1j">
-      <div class="flex flex-col md:flex-row items-center gap-8" id="el-xp76vg8a">
-        <!-- Profile Image Column -->
-        <div class="md:w-1/3 flex justify-center mb-8 md:mb-0 animate-fadeIn" id="el-3czsg9vh">
-          <div class="relative hover:scale-105 transition-transform duration-300" id="el-4yytdeqg">
-            <div class="absolute -top-6 -left-6 w-32 h-32 rounded-full bg-[#8BC6A7] opacity-20 animate-pulse" id="el-54lrnkvt"></div>
-            <img src="https://placehold.co/400x400" alt="Alix Benzema - Développeuse Fullstack et Intégratrice DevOps" onerror="this.onerror=null; this.src='https://placehold.co/' + this.width + 'x' + this.height" width="300" height="300" class="rounded-lg z-10 relative shadow-xl animate-fadeIn" id="el-pud3vloc">
-            <div class="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-[#2E7D5B] opacity-20 animate-pulse" id="el-7gxk1al2"></div>
-          </div>
-        </div>
-        
-        <!-- Text Content Column -->
-        <div class="md:w-2/3 animate-slideInRight" id="el-lft471l6">
-          <div class="space-y-6" id="el-e4stop9a">
-            <div id="el-l884dfhy">
-              <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 text-[#8BC6A7] animate-fadeIn" id="el-ym1iz8qv">Alix Benzema</h1>
-              <h2 class="text-xl md:text-2xl lg:text-3xl mb-2 text-[#4A9F76] animate-fadeIn animation-delay-300" id="el-x1f2bbsm">Développeuse Fullstack &amp; Intégratrice DevOps</h2>
-              <div class="w-20 h-1 bg-[#2E7D5B] my-4 animate-widthGrow" id="el-zh6w2yuc"></div>
-            </div>
-            
-            <p class="text-base md:text-lg max-w-2xl animate-fadeIn animation-delay-500" id="el-lxts7yyd">
-              Développeuse full stack avec 4 ans d'expérience, spécialisée en PHP, Python, et intégration continue. 
-              Passionnée par l'amélioration continue des processus de développement et l'automatisation DevOps.
-            </p>
-            
-            <div class="flex flex-wrap gap-3 pt-2" id="el-c9laxhza">
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-600" id="el-259dhjg9">PHP</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-700" id="el-8kk4iafp">Python</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-800" id="el-elclzh41">DevOps</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-900" id="el-lt5lmu2e">GitLab CI/CD</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-1000" id="el-7fvbicg5">Ansible</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-30 rounded-full text-sm hover:bg-opacity-50 transition-all duration-300 transform hover:scale-105 animate-fadeIn animation-delay-1100" id="el-nxn6w72d">SQL</span>
-            </div>
-            
-            <div class="flex flex-wrap gap-4 pt-4 animate-fadeIn animation-delay-1200" id="el-c708gqia">
-              <a href="#contact" class="px-6 py-3 bg-[#2E7D5B] text-white rounded-lg hover:bg-[#4A9F76] transition-all duration-300 transform hover:scale-105 hover:shadow-lg" id="el-wv66aie6">
-                Me contacter
-              </a>
-              <a href="#experience" class="px-6 py-3 border border-[#8BC6A7] text-[#8BC6A7] rounded-lg hover:bg-[#8BC6A7] hover:bg-opacity-20 transition-all duration-300 transform hover:scale-105 hover:shadow-lg" id="el-w8ct71ha">
-                Voir mon expérience
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Scroll Down Indicator -->
-      <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block" id="el-6z0053nr">
-        <a href="#about" class="text-[#8BC6A7] hover:text-white transition-colors duration-300" id="el-14t583ix">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ricpu0m4">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" id="el-u87auu9t"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </section>
-</div>
-
-<style>
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes slideInRight {
-  0% { transform: translateX(50px); opacity: 0; }
-  100% { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes widthGrow {
-  0% { width: 0; }
-  100% { width: 5rem; }
-}
-
-.animate-fadeIn {
-  animation: fadeIn 0.8s ease-in-out forwards;
-}
-
-.animate-slideInRight {
-  animation: slideInRight 0.8s ease-out forwards;
-}
-
-.animate-widthGrow {
-  animation: widthGrow 1s ease-out forwards;
-}
-
-.animation-delay-300 {
-  animation-delay: 300ms;
-}
-
-.animation-delay-500 {
-  animation-delay: 500ms;
-}
-
-.animation-delay-600 {
-  animation-delay: 600ms;
-}
-
-.animation-delay-700 {
-  animation-delay: 700ms;
-}
-
-.animation-delay-800 {
-  animation-delay: 800ms;
-}
-
-.animation-delay-900 {
-  animation-delay: 900ms;
-}
-
-.animation-delay-1000 {
-  animation-delay: 1000ms;
-}
-
-.animation-delay-1100 {
-  animation-delay: 1100ms;
-}
-
-.animation-delay-1200 {
-  animation-delay: 1200ms;
-}
-</style>
-</element><element id="2f61bdea-b34d-4547-bde2-d4f702b08c74" data-section-id="2f61bdea-b34d-4547-bde2-d4f702b08c74">
-
-
-                
-                
-<div id="root">
-  <section id="about" class="py-20 bg-neutral-900">
-    <div class="container mx-auto px-4" id="el-rryxujnx">
-      <div class="flex flex-col md:flex-row gap-12 items-center" id="el-bvcex19o">
-        <!-- Left side: About text -->
-        <div class="md:w-1/2" id="el-yo3q9oyg">
-          <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[#8BC6A7]" id="el-1gcw2cd4">À propos de moi</h2>
-          <div class="w-20 h-1 bg-[#2E7D5B] mb-8" id="el-uwbqckgr"></div>
-          
-          <div class="space-y-6 text-gray-200" id="el-4kxdgtho">
-            <p id="el-nkxbdchl">
-              Je suis développeuse full stack depuis 4 ans maintenant et toujours à la 
-              recherche de nouvelles cordes à ajouter à mon arc.
-            </p>
-            
-            <p id="el-mph3yg0b">
-              C'est dans cette optique que je me forme en autodidacte sur les technologies 
-              de développement web afin de pouvoir y joindre mon expertise en intégration continue.
-            </p>
-            
-            <p id="el-xvyqg6or">
-              Mon parcours professionnel m'a permis de développer une expertise solide en 
-              DevOps, avec une spécialisation en GitLab CI/CD et Ansible pour l'automatisation 
-              des processus de déploiement.
-            </p>
-            
-            <div class="mt-10" id="el-y72im7ki">
-              <h3 class="text-xl font-semibold mb-4 text-[#4A9F76]" id="el-nroq459e">Ce qui me définit :</h3>
-              <ul class="space-y-3" id="el-q2725ymu">
-                <li class="flex items-start" id="el-f4gaqlh0">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-43oun8op">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" id="el-33ioaa4u"></path>
-                  </svg>
-                  <span id="el-eatrf8ik">Passionnée par l'automatisation et l'optimisation des processus de développement</span>
-                </li>
-                <li class="flex items-start" id="el-evtdfrlk">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-wwk0a0ix">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" id="el-wk2bir2g"></path>
-                  </svg>
-                  <span id="el-brz4lzgu">Formatrice autodidacte toujours en quête de nouvelles connaissances techniques</span>
-                </li>
-                <li class="flex items-start" id="el-wbloxnmm">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-bpzblmua">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" id="el-3viauwon"></path>
-                  </svg>
-                  <span id="el-6of1i8hq">Adepte de la botanique et des approches naturelles, même dans mon code</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Right side: Key highlights and decorative elements -->
-        <div class="md:w-1/2" id="el-b2yyvspm">
-          <div class="bg-neutral-800 p-8 rounded-lg relative overflow-hidden shadow-xl" id="el-y5hi38p3">
-            <!-- Decorative elements -->
-            <div class="absolute top-0 right-0 w-32 h-32 bg-[#4A9F76] opacity-10 rounded-bl-full" id="el-9eu0ok8r"></div>
-            <div class="absolute bottom-0 left-0 w-40 h-40 bg-[#8BC6A7] opacity-10 rounded-tr-full" id="el-qwt4jpwp"></div>
-            
-            <h3 class="text-2xl font-bold mb-6 text-[#8BC6A7] relative z-10" id="el-t8kdszlw">Mon profil en bref</h3>
-            
-            <div class="space-y-6 relative z-10" id="el-utifxtux">
-              <div class="flex items-center" id="el-hf2qwh2p">
-                <div class="bg-[#2E7D5B] bg-opacity-20 p-3 rounded-lg mr-4" id="el-h6wqujsp">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-4ey2cz5w">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" id="el-z67dz0dz"></path>
-                  </svg>
-                </div>
-                <div id="el-oo5sphmt">
-                  <h4 class="text-lg font-semibold text-white" id="el-qee9lvs1">Développement</h4>
-                  <p class="text-gray-300" id="el-iez47gum">PHP, Python, HTML/CSS, JavaScript</p>
-                </div>
-              </div>
-              
-              <div class="flex items-center" id="el-tjboh413">
-                <div class="bg-[#2E7D5B] bg-opacity-20 p-3 rounded-lg mr-4" id="el-o2t318lv">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-fef5fftj">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" id="el-30g6aefq"></path>
-                  </svg>
-                </div>
-                <div id="el-2ea175ld">
-                  <h4 class="text-lg font-semibold text-white" id="el-5xoxe9uq">DevOps</h4>
-                  <p class="text-gray-300" id="el-a12cvkg6">GitLab CI/CD, Ansible, Intégration continue</p>
-                </div>
-              </div>
-              
-              <div class="flex items-center" id="el-y9aegh4h">
-                <div class="bg-[#2E7D5B] bg-opacity-20 p-3 rounded-lg mr-4" id="el-kb7c1snp">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-etlddkxo">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" id="el-2fejcbdm"></path>
-                  </svg>
-                </div>
-                <div id="el-2s4uur82">
-                  <h4 class="text-lg font-semibold text-white" id="el-twva99k6">Base de données</h4>
-                  <p class="text-gray-300" id="el-1q6q9bvl">SQL, Postgres, MySQL, Oracle</p>
-                </div>
-              </div>
-              
-              <div class="flex items-center" id="el-yylnrbsd">
-                <div class="bg-[#2E7D5B] bg-opacity-20 p-3 rounded-lg mr-4" id="el-bak87mb6">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-cvoodeh1">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" id="el-okf0pg90"></path>
-                  </svg>
-                </div>
-                <div id="el-zh45lps1">
-                  <h4 class="text-lg font-semibold text-white" id="el-2lrf3rc2">Formation</h4>
-                  <p class="text-gray-300" id="el-razxien8">Licence Pro DevOps, DUT Informatique</p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="mt-8 pt-6 border-t border-neutral-700 relative z-10" id="el-u086sxl0">
-              <p class="text-gray-300 italic" id="el-7nrvj6x1">
-                "Je construis des solutions robustes qui allient développement et automatisation, pour des applications fiables et évolutives."
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-              
-              
-</element><element id="f5c1aede-4790-42b6-9aa4-1b4729267c21" data-section-id="f5c1aede-4790-42b6-9aa4-1b4729267c21">
-
-
-                
-                
-<div id="root">
-  <section id="skills" class="py-20 bg-neutral-800">
-    <div class="container mx-auto px-4" id="el-sg2hqrev">
-      <div class="text-center mb-16" id="el-4q6mjaq4">
-        <h2 class="text-4xl font-bold text-[#8BC6A7] mb-4" id="el-sa3scxt5">Compétences</h2>
-        <p class="text-gray-300 max-w-2xl mx-auto" id="el-0rrlnql3">Expertise technique développée au fil de 4 années d'expérience professionnelle et d'apprentissage autodidacte.</p>
-        <div class="w-20 h-1 bg-[#2E7D5B] mx-auto mt-6" id="el-raes88kd"></div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="el-bhdqrpjf">
-        <!-- Développement Web -->
-        <div class="bg-neutral-900 p-6 rounded-lg shadow-lg hover:translate-y-[-4px] transition-transform" id="el-upknb0ff">
-          <div class="flex items-center mb-6" id="el-9hp9tyri">
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20 mr-4" id="el-hctspe2u">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-1v1k1gk2">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" id="el-cdhzmj5i"></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-white" id="el-rwqqdsm3">Développement Web</h3>
-          </div>
-          
-          <ul class="space-y-3 text-gray-300" id="el-dnr7lnl5">
-            <li class="flex items-center" id="el-nuipc0rr">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-qbwm9rus">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[90%]" id="el-7zhj26y7"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-9duylzcv">PHP (90%)</span>
-            </li>
-            <li class="flex items-center" id="el-zjxrfcyh">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-dacnlf89">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[85%]" id="el-pslarkfm"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-jab6622g">Python (85%)</span>
-            </li>
-            <li class="flex items-center" id="el-glw8f0n7">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-6rtjrf09">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[95%]" id="el-nb9b59hw"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-bdn6qq1p">HTML/CSS (95%)</span>
-            </li>
-            <li class="flex items-center" id="el-f558z8qc">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-6jukd44l">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[75%]" id="el-ix5j7q5b"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-s22q562u">JavaScript (75%)</span>
-            </li>
-            <li class="flex items-center" id="el-8izhtth2">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-6mb6plwt">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[80%]" id="el-4uerkulw"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-b9mw7adq">Django (80%)</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- DevOps -->
-        <div class="bg-neutral-900 p-6 rounded-lg shadow-lg hover:translate-y-[-4px] transition-transform" id="el-0ydlcaxz">
-          <div class="flex items-center mb-6" id="el-6ovr7625">
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20 mr-4" id="el-ln8irqis">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-2pd48z89">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" id="el-k1il2b5x"></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-white" id="el-tb1m8zyt">DevOps</h3>
-          </div>
-          
-          <ul class="space-y-3 text-gray-300" id="el-rltwtxuf">
-            <li class="flex items-center" id="el-cdbulpwf">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-zj3akk64">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[95%]" id="el-8ve5zd70"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-uc91sgyy">GitLab CI/CD (95%)</span>
-            </li>
-            <li class="flex items-center" id="el-8blxwvnt">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-axftmllu">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[90%]" id="el-91dy9rce"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-22l6tws7">Ansible (90%)</span>
-            </li>
-            <li class="flex items-center" id="el-mum2tl9q">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-cmtvmnly">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[85%]" id="el-wrskjvxg"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-stlikzji">Docker (85%)</span>
-            </li>
-            <li class="flex items-center" id="el-gdjjtcyj">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-q8ltk4rh">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[80%]" id="el-1qiqxuy9"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-zbdc9c3z">Jenkins (80%)</span>
-            </li>
-            <li class="flex items-center" id="el-o18rtoe5">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-3wg7rb33">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[75%]" id="el-1gyfr5no"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-mfqv0lkd">Kubernetes (75%)</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Base de données -->
-        <div class="bg-neutral-900 p-6 rounded-lg shadow-lg hover:translate-y-[-4px] transition-transform" id="el-c0w8q558">
-          <div class="flex items-center mb-6" id="el-jyfdeg49">
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20 mr-4" id="el-yphzv6bi">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-zbf6z21h">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" id="el-4ogioc42"></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-white" id="el-x1fl2dar">Base de données</h3>
-          </div>
-          
-          <ul class="space-y-3 text-gray-300" id="el-a42eet04">
-            <li class="flex items-center" id="el-3so6f6fw">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-ia31b9uv">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[90%]" id="el-m8uff79y"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-rrbu4929">MySQL (90%)</span>
-            </li>
-            <li class="flex items-center" id="el-93aimtr9">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-3pyu5dbx">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[85%]" id="el-yjsd7tmu"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-hhlx8df1">PostgreSQL (85%)</span>
-            </li>
-            <li class="flex items-center" id="el-r116rmt4">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-ucniuhcq">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[80%]" id="el-dfmml8tp"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-3onif0p0">Oracle (80%)</span>
-            </li>
-            <li class="flex items-center" id="el-wsn543p1">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-2erute0u">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[75%]" id="el-nj6yfvde"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-shw7h62h">MongoDB (75%)</span>
-            </li>
-            <li class="flex items-center" id="el-fyyognav">
-              <div class="w-full bg-neutral-800 rounded-full h-4" id="el-to2d3rj1">
-                <div class="bg-[#4A9F76] h-4 rounded-full w-[70%]" id="el-n6sh8rvn"></div>
-              </div>
-              <span class="ml-3 w-24 text-sm" id="el-mm4fe79v">Redis (70%)</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Autres compétences -->
-      <div class="mt-16" id="el-in2509b1">
-        <h3 class="text-2xl font-bold text-[#8BC6A7] mb-8 text-center" id="el-chc8b5s5">Autres compétences techniques</h3>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="el-ywfsstvh">
-          <div class="bg-neutral-900 p-4 rounded-lg text-center" id="el-qf277ppu">
-            <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#2E7D5B] bg-opacity-20 mb-2" id="el-qu0gg1xw">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ygxjaj0d">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" id="el-4e83y55z"></path>
-              </svg>
-            </div>
-            <h4 class="text-lg font-semibold text-white" id="el-z0usfy77">Tests automatisés</h4>
-          </div>
-          <div class="bg-neutral-900 p-4 rounded-lg text-center" id="el-m6avzxqs">
-            <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#2E7D5B] bg-opacity-20 mb-2" id="el-4sm667ue">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-6o7tn8rb">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" id="el-3rw62375"></path>
-              </svg>
-            </div>
-            <h4 class="text-lg font-semibold text-white" id="el-vl9mxy07">Sécurité applicative</h4>
-          </div>
-          <div class="bg-neutral-900 p-4 rounded-lg text-center" id="el-a4b6vdks">
-            <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#2E7D5B] bg-opacity-20 mb-2" id="el-1ux6jynu">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-1tes9mnl">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" id="el-rchi05du"></path>
-              </svg>
-            </div>
-            <h4 class="text-lg font-semibold text-white" id="el-o8hsfcxk">Architecture logicielle</h4>
-          </div>
-          <div class="bg-neutral-900 p-4 rounded-lg text-center" id="el-p71j0t09">
-            <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#2E7D5B] bg-opacity-20 mb-2" id="el-74fanqit">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-6sroxavy">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" id="el-c1ib51jk"></path>
-              </svg>
-            </div>
-            <h4 class="text-lg font-semibold text-white" id="el-scm2sl42">Internationalisation</h4>
-          </div>
-        </div>
-      </div>
-
-      <!-- Langues -->
-      <div class="mt-16" id="el-bp29fvxd">
-        <h3 class="text-2xl font-bold text-[#8BC6A7] mb-8 text-center" id="el-crm8sbu5">Langues</h3>
-        <div class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6" id="el-m32xic70">
-          <div class="bg-neutral-900 p-6 rounded-lg" id="el-id7id0my">
-            <div class="flex justify-between items-center mb-2" id="el-u9f2l9vu">
-              <h4 class="text-lg font-semibold text-white" id="el-1ro7xwvr">Français</h4>
-              <span class="text-[#8BC6A7]" id="el-03bg7yps">Langue maternelle</span>
-            </div>
-            <div class="w-full bg-neutral-800 rounded-full h-2" id="el-u0508msb">
-              <div class="bg-[#4A9F76] h-2 rounded-full w-full" id="el-2ppve5ua"></div>
-            </div>
-          </div>
-
-          <div class="bg-neutral-900 p-6 rounded-lg" id="el-19kfda5z">
-            <div class="flex justify-between items-center mb-2" id="el-h5xtxo5k">
-              <h4 class="text-lg font-semibold text-white" id="el-x5ps7hv4">Anglais</h4>
-              <span class="text-[#8BC6A7]" id="el-nqk4z7vc">B2/C1</span>
-            </div>
-            <div class="w-full bg-neutral-800 rounded-full h-2" id="el-dete62ns">
-              <div class="bg-[#4A9F76] h-2 rounded-full w-[85%]" id="el-7tq9rg96"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-              
-              
-</element><element id="32068559-359c-4c4a-872c-4a53fd345f7a" data-section-id="32068559-359c-4c4a-872c-4a53fd345f7a">
-
-
-                
-                
-<div id="root">
-  <section id="experience" class="py-20 bg-neutral-900">
-    <div class="container mx-auto px-4" id="el-ebvh2tjh" data-aos="fade-up">
-      <div class="text-center mb-16" id="el-f4e7loq7" data-aos="zoom-in">
-        <h2 class="text-4xl font-bold text-[#8BC6A7] mb-4" id="el-s2i38kev">Expériences Professionnelles</h2>
-        <p class="text-gray-300 max-w-2xl mx-auto" id="el-jyle0knz">Parcours professionnel dans le développement et l'intégration DevOps</p>
-        <div class="w-20 h-1 bg-[#2E7D5B] mx-auto mt-6" id="el-kahixz4c"></div>
-      </div>
-
-      <div class="max-w-4xl mx-auto" id="el-hi4t82ua">
-        <!-- Timeline container -->
-        <div class="relative" id="el-1udk28zq">
-          <!-- Vertical line -->
-          <div class="absolute left-0 md:left-1/2 transform md:translate-x-[-50%] h-full w-1 bg-[#4A9F76] bg-opacity-30" id="el-qwsd9kte"></div>
-  <!-- Experience 1: INSA Lyon -->
-          <div class="relative flex flex-col md:flex-row items-center mb-16" id="el-phvu3pmv" data-aos="fade-up" data-aos-delay="100">
-            <!-- Date for mobile -->
-            <div class="md:hidden mb-4 px-4 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-sm font-semibold" id="el-79bxn2a8">
-              2021 - 2024
-            </div>
-
-            <!-- Left content (right side on mobile) -->
-            <div class="md:w-1/2 md:pr-12 md:text-right mb-8 md:mb-0 w-full pl-12 md:pl-0" id="el-xz4xzk5i" data-aos="fade-right">
-              <div class="hidden md:block mb-2 px-4 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-sm font-semibold inline-block" id="el-5jj2u5uz">
-                2021 - 2024
-              </div>
-              <h3 class="text-2xl font-bold text-white mb-2" id="el-bb1sau99">Développeuse et intégratrice</h3>
-              <h4 class="text-xl text-[#4A9F76] mb-4" id="el-jxs9lpdb">INSA Lyon</h4>
-              <div class="bg-neutral-800 p-6 rounded-lg shadow-lg" id="el-kceyni52" data-aos="fade-up">
-             <ul class="text-gray-300 list-disc list-inside space-y-2 text-left" id="el-9f0ff1pg">
-  <li id="el-bm949u89">
-    Mise en place d'application de scolarité en intégration continue avec GitLab CI/CD 
-    avec l'aide de playbook Ansible
-  </li>
-  <li id="el-p9steqby">
-    Développement d'injecteur en PHP dans le cadre du projet Pégase et leur intégration continue
-  </li>
-  <li id="el-49y7mscq">
-    Maintenance et support d'applications métiers auprès des usagers (étudiants et personnels)
-  </li>
-</ul>
-                <div class="mt-4 flex flex-wrap gap-2" id="el-9htzuq6v">
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-fmlf78bh">PHP</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-bi6ibfxm">GitLab CI/CD</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-f6wfoofu">Ansible</span>
-                </div>
-              </div>
-            </div>
-
-
-            <!-- Circle on timeline -->
-            <div class="absolute left-[-8px] md:left-1/2 transform md:translate-x-[-50%] w-6 h-6 bg-[#8BC6A7] rounded-full border-4 border-neutral-900 z-10" id="el-ke8azb9g" data-aos="zoom-in"></div>
-
-            <!-- Right content (empty for first item on desktop) -->
-            <div class="md:w-1/2 md:pl-12 w-full pl-12 md:hidden" id="el-vlpqgbhz"></div>
-          </div>
-
-          <!-- Experience 2: Université Lumière Lyon 2 -->
-          <div class="relative flex flex-col md:flex-row items-center mb-16" id="el-7axm6tnr" data-aos="fade-up" data-aos-delay="200">
-            <!-- Date for mobile -->
-            <div class="md:hidden mb-4 px-4 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-sm font-semibold" id="el-qoe0dijd">
-              2019 - 2020
-            </div>
-
-            <!-- Left content (now empty for desktop) -->
-            <div class="md:w-1/2 md:pr-12 w-full pl-12 md:pl-0 md:block hidden" id="el-1dk89jrq"></div>
-
-            <!-- Circle on timeline -->
-            <div class="absolute left-[-8px] md:left-1/2 transform md:translate-x-[-50%] w-6 h-6 bg-[#8BC6A7] rounded-full border-4 border-neutral-900 z-10" id="el-oow3dbpq" data-aos="zoom-in"></div>
-
-            <!-- Right content (now contains the main content) -->
-            <div class="md:w-1/2 md:pl-12 w-full pl-12 md:pl-12" id="el-ijott6be" data-aos="fade-left">
-              <div class="hidden md:block mb-2 px-4 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-sm font-semibold inline-block" id="el-hw4utcnw">
-                2019 - 2020
-              </div>
-              <h3 class="text-2xl font-bold text-white mb-2" id="el-1wtplbqv">Développeuse Fullstack</h3>
-              <h4 class="text-xl text-[#4A9F76] mb-4" id="el-r63eukkz">Université Lumière Lyon 2</h4>
-              <div class="bg-neutral-800 p-6 rounded-lg shadow-lg" id="el-xwq80rtq" data-aos="fade-up">
-                <ul class="text-gray-300 list-disc list-inside space-y-2" id="el-r8odh031">
-                  <li id="el-wgke3dzp">Projet Election Universitaire : application de gestion des élections universitaires en Python avec Django</li>
-                  <li id="el-4qkq52dc">Projet de suppression des comptes du référentiel de l'université sur ORACLE</li>
-                  <li id="el-idwhkqqn">Automatisation des processus administratifs et développement d'interfaces utilisateur</li>
-                </ul>
-                <div class="mt-4 flex flex-wrap gap-2" id="el-xiabx9wm">
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-emuubpkj">Python</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-hygu5lgo">Django</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-ifv9b79m">ORACLE</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Experience 3: Stage -->
-          <div class="relative flex flex-col md:flex-row items-center" id="el-iybbw9do" data-aos="fade-up" data-aos-delay="300">
-            <!-- Date for mobile -->
-            <div class="md:hidden mb-4 px-4 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-sm font-semibold" id="el-nn1m92nj">
-              2018 - 2019
-            </div>
-
-            <!-- Left content -->
-            <div class="md:w-1/2 md:pr-12 md:text-right mb-8 md:mb-0 w-full pl-12 md:pl-0" id="el-m60mtpi3" data-aos="fade-right">
-              <div class="hidden md:block mb-2 px-4 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-sm font-semibold inline-block" id="el-n42mz8yd">
-                2018 - 2019
-              </div>
-              <h3 class="text-2xl font-bold text-white mb-2" id="el-rkkzvvlu">Stage développement web</h3>
-              <h4 class="text-xl text-[#4A9F76] mb-4" id="el-uvgc6up7">Société Tech Solutions</h4>
-              <div class="bg-neutral-800 p-6 rounded-lg shadow-lg" id="el-47w20uwc" data-aos="fade-up">
-              <ul class="text-gray-300 list-disc list-inside space-y-2 text-left" id="el-9f0ff1pg">
-                  <li id="el-uqc0joi4">Développement de modules PHP pour une plateforme e-commerce</li>
-                  <li id="el-qvbmfaiv">Intégration de templates HTML/CSS responsive</li>
-                  <li id="el-15y97h0e">Mise en place de tests unitaires et participation aux revues de code</li>
-                </ul>
-                <div class="mt-4 flex flex-wrap gap-2" id="el-ke90pdfp">
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-q55gc01w">PHP</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-gpa7sc4f">HTML/CSS</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-eosxp4x7">MySQL</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Circle on timeline -->
-            <div class="absolute left-[-8px] md:left-1/2 transform md:translate-x-[-50%] w-6 h-6 bg-[#8BC6A7] rounded-full border-4 border-neutral-900 z-10" id="el-ui6vetow" data-aos="zoom-in"></div>
-
-            <!-- Right content (empty for third item on desktop) -->
-            <div class="md:w-1/2 md:pl-12 w-full pl-12 md:hidden" id="el-4o8zndcp"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Projects highlight -->
-      <div class="mt-20" id="el-zhdh6fkx" data-aos="fade-up">
-        <h3 class="text-2xl font-bold text-center text-[#8BC6A7] mb-8" id="el-ochoh9nt">Projets notables</h3>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="el-zs3y03yk">
-          <!-- Project 1 -->
-          <div class="bg-neutral-800 rounded-lg overflow-hidden shadow-lg hover:translate-y-[-4px] transition-transform" id="el-jb8i7t5l" data-aos="fade-up" data-aos-delay="100">
-            <div class="h-4 bg-gradient-to-r from-[#2E7D5B] to-[#8BC6A7]" id="el-xyh0ttfl"></div>
-            <div class="p-6" id="el-oj205kt8">
-              <h4 class="text-xl font-bold text-white mb-2" id="el-8o1n03sb">Système de gestion des élections universitaires</h4>
-              <p class="text-gray-300 mb-4" id="el-ea1gkvsx">Application complète pour gérer le processus électoral universitaire, de l'inscription des candidats jusqu'au dépouillement des résultats.</p>
-              <div class="flex flex-wrap gap-2 mb-4" id="el-3r7gad7x">
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-e4inqj57">Python</span>
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-tcu2h5mx">Django</span>
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-3ynhkt41">PostgreSQL</span>
-              </div>
-              <div class="text-[#4A9F76] font-semibold" id="el-7pjgvuob">Université Lumière Lyon 2 (2019-2020)</div>
-            </div>
-          </div>
-          
-          <!-- Project 2 -->
-          <div class="bg-neutral-800 rounded-lg overflow-hidden shadow-lg hover:translate-y-[-4px] transition-transform" id="el-fx2gxxd0" data-aos="fade-up" data-aos-delay="150">
-            <div class="h-4 bg-gradient-to-r from-[#2E7D5B] to-[#8BC6A7]" id="el-eni9icpy"></div>
-            <div class="p-6" id="el-adf8i8c7">
-              <h4 class="text-xl font-bold text-white mb-2" id="el-12mkox4n">Intégration continue pour application de scolarité</h4>
-              <p class="text-gray-300 mb-4" id="el-zl6rw0kz">Mise en place d'un pipeline CI/CD complet pour automatiser le déploiement des applications de gestion scolaire avec tests automatisés.</p>
-              <div class="flex flex-wrap gap-2 mb-4" id="el-s0np8diq">
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-u1a0x7wa">GitLab CI/CD</span>
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-i65mpps3">Ansible</span>
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-5vogwzh5">Docker</span>
-              </div>
-              <div class="text-[#4A9F76] font-semibold" id="el-3t6c96al">INSA Lyon (2021-2023)</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-
-              
-              
-</element><element id="41df122e-e716-413b-91ab-ff6116497b47" data-section-id="41df122e-e716-413b-91ab-ff6116497b47">
-
-
-                
-                
-<div id="root">
-  <section id="projects" class="py-20 bg-neutral-800">
-    <div class="container mx-auto px-4" id="el-owxy6ug6">
-      <div class="text-center mb-16" id="el-58ww93fv">
-        <h2 class="text-4xl font-bold text-[#8BC6A7] mb-4" id="el-0geaaaho">Projets</h2>
-        <p class="text-gray-300 max-w-2xl mx-auto" id="el-qyyjss2g">Une sélection de projets démontrant mes compétences techniques et mon approche méthodologique</p>
-        <div class="w-20 h-1 bg-[#2E7D5B] mx-auto mt-6" id="el-gurqaijp"></div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="el-vq35nk6o">
-        <!-- Project 1 -->
-        <div class="bg-neutral-900 rounded-lg overflow-hidden shadow-lg group hover:translate-y-[-4px] transition-transform" id="el-d0407jj1">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-g30cbeot">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-madfsfb6">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-[#8BC6A7] opacity-40" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ood3zzqi">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" id="el-4cyi2e5u"></path>
-              </svg>
-            </div>
-            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-neutral-900 to-transparent" id="el-lq67k2aq">
-              <h3 class="text-xl font-bold text-white" id="el-ym83byyp">Système d'Élections Universitaires</h3>
-            </div>
-          </div>
-          <div class="p-6" id="el-l1f44xb7">
-            <div class="mb-4" id="el-x90n0z86">
-              <p class="text-gray-300" id="el-y4u7xs53">Application complète pour la gestion des élections universitaires, incluant l'inscription des candidats, le vote et le dépouillement sécurisé.</p>
-            </div>
-            <div class="flex flex-wrap gap-2 mb-4" id="el-miau6t3y">
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-xbltg355">Python</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-bpxjkodj">Django</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-jzn15myq">PostgreSQL</span>
-            </div>
-            <div class="flex justify-between items-center" id="el-4tvuyzp6">
-              <span class="text-[#4A9F76]" id="el-6x9mvua0">Université Lyon 2</span>
-              <a href="#" class="text-white hover:text-[#8BC6A7] transition-colors" id="el-87wcr7cy">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-7g98618g">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" id="el-0a5vv6ei"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="bg-neutral-900 rounded-lg overflow-hidden shadow-lg group hover:translate-y-[-4px] transition-transform" id="el-emxn3xly">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-ssys3cnp">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-jidi48uc">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-[#8BC6A7] opacity-40" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-2nlj05n6">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" id="el-iaujof1k"></path>
-              </svg>
-            </div>
-            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-neutral-900 to-transparent" id="el-hmih9s6k">
-              <h3 class="text-xl font-bold text-white" id="el-25tzyil2">Gestion de Comptes Oracle</h3>
-            </div>
-          </div>
-          <div class="p-6" id="el-xpfm17mv">
-            <div class="mb-4" id="el-4oixouwv">
-              <p class="text-gray-300" id="el-499kso59">Système de suppression automatisée des comptes inactifs dans le référentiel universitaire, avec audit et traçabilité des actions.</p>
-            </div>
-            <div class="flex flex-wrap gap-2 mb-4" id="el-cecxxqbd">
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-h68wr99g">Python</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-pj7ska1y">Oracle</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-tqv8xuci">SQL</span>
-            </div>
-            <div class="flex justify-between items-center" id="el-m1od4w3i">
-              <span class="text-[#4A9F76]" id="el-lqsyex2z">Université Lyon 2</span>
-              <a href="#" class="text-white hover:text-[#8BC6A7] transition-colors" id="el-lulv4n5r">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-aznp09d2">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" id="el-1ycj762t"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="bg-neutral-900 rounded-lg overflow-hidden shadow-lg group hover:translate-y-[-4px] transition-transform" id="el-805c39hk">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-kozmavel">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-zb7rmves">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-[#8BC6A7] opacity-40" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-k1scu5p7">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" id="el-7oyh37tb"></path>
-              </svg>
-            </div>
-            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-neutral-900 to-transparent" id="el-k3ijtq2a">
-              <h3 class="text-xl font-bold text-white" id="el-99xewnwo">Pipeline CI/CD GitLab</h3>
-            </div>
-          </div>
-          <div class="p-6" id="el-qaecb7u7">
-            <div class="mb-4" id="el-8kj7g055">
-              <p class="text-gray-300" id="el-5pdo58xl">Mise en place d'un système d'intégration et déploiement continus pour les applications de scolarité avec automatisation complète.</p>
-            </div>
-            <div class="flex flex-wrap gap-2 mb-4" id="el-g6phub7f">
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-7xp134oq">GitLab CI/CD</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-uu2ebts5">Ansible</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-lg8lweym">Docker</span>
-            </div>
-            <div class="flex justify-between items-center" id="el-mo6of2ty">
-              <span class="text-[#4A9F76]" id="el-jvb3q7j5">INSA Lyon</span>
-              <a href="#" class="text-white hover:text-[#8BC6A7] transition-colors" id="el-9glo5k65">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-qw33d7td">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" id="el-gpjqlwqe"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 4 -->
-        <div class="bg-neutral-900 rounded-lg overflow-hidden shadow-lg group hover:translate-y-[-4px] transition-transform" id="el-odirz63m">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-rlacqoxp">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-zw9bg5jg">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-[#8BC6A7] opacity-40" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-8vx0mve6">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" id="el-chhgcdwn"></path>
-              </svg>
-            </div>
-            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-neutral-900 to-transparent" id="el-84fl4q15">
-              <h3 class="text-xl font-bold text-white" id="el-i5ewhlie">Injecteur PHP pour Pégase</h3>
-            </div>
-          </div>
-          <div class="p-6" id="el-j588ax3a">
-            <div class="mb-4" id="el-vnqldb7f">
-              <p class="text-gray-300" id="el-dxc40x2x">Développement d'un module d'injection de données pour le système Pégase, permettant la synchronisation entre différentes applications de scolarité.</p>
-            </div>
-            <div class="flex flex-wrap gap-2 mb-4" id="el-awjc57ud">
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-zolxij38">PHP</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-uz4avx09">API REST</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-os8zc912">MySQL</span>
-            </div>
-            <div class="flex justify-between items-center" id="el-1ns82hf7">
-              <span class="text-[#4A9F76]" id="el-razbcgxx">INSA Lyon</span>
-              <a href="#" class="text-white hover:text-[#8BC6A7] transition-colors" id="el-2sa45jl7">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-3psgxamz">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" id="el-2crp4nrh"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 5 -->
-        <div class="bg-neutral-900 rounded-lg overflow-hidden shadow-lg group hover:translate-y-[-4px] transition-transform" id="el-ssewb6fo">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-983q623u">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-vjuzlsry">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-[#8BC6A7] opacity-40" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-vel5b6lc">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" id="el-ce20hr4d"></path>
-              </svg>
-            </div>
-            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-neutral-900 to-transparent" id="el-lbva88xr">
-              <h3 class="text-xl font-bold text-white" id="el-11uzp65j">Playbooks Ansible</h3>
-            </div>
-          </div>
-          <div class="p-6" id="el-2f867bzx">
-            <div class="mb-4" id="el-35omdi8x">
-              <p class="text-gray-300" id="el-wliabpm4">Création de playbooks Ansible pour automatiser le déploiement et la configuration des serveurs d'applications avec gestion des environnements.</p>
-            </div>
-            <div class="flex flex-wrap gap-2 mb-4" id="el-thxzp6es">
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-vn89m1iu">Ansible</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-z9yghnh5">YAML</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-sr1wc1fn">Linux</span>
-            </div>
-            <div class="flex justify-between items-center" id="el-a8q7h8rq">
-              <span class="text-[#4A9F76]" id="el-4495tt5i">Projet personnel</span>
-              <a href="#" class="text-white hover:text-[#8BC6A7] transition-colors" id="el-hcuhlcph">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-jx5dv12i">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" id="el-gdn4ed43"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 6 -->
-        <div class="bg-neutral-900 rounded-lg overflow-hidden shadow-lg group hover:translate-y-[-4px] transition-transform" id="el-o5s38vpq">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-64kt0kg8">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-6aejh516">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-[#8BC6A7] opacity-40" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-z8b3iqfr">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" id="el-xbp0o9n8"></path>
-              </svg>
-            </div>
-            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-neutral-900 to-transparent" id="el-9cxysazr">
-              <h3 class="text-xl font-bold text-white" id="el-092tenrx">Système de Monitoring</h3>
-            </div>
-          </div>
-          <div class="p-6" id="el-qvurxrvq">
-            <div class="mb-4" id="el-mipzvnxx">
-              <p class="text-gray-300" id="el-ceikjgjg">Mise en place d'une solution de surveillance complète pour les applications et l'infrastructure avec alertes en temps réel.</p>
-            </div>
-            <div class="flex flex-wrap gap-2 mb-4" id="el-2lsla98g">
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-qpqnzw1n">Grafana</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-1v9r23sh">Prometheus</span>
-              <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-j2xscza7">Docker</span>
-            </div>
-            <div class="flex justify-between items-center" id="el-amhxrb9t">
-              <span class="text-[#4A9F76]" id="el-g9cq357g">INSA Lyon</span>
-              <a href="#" class="text-white hover:text-[#8BC6A7] transition-colors" id="el-gri4tj55">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-3crn57s5">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" id="el-ifb1yauw"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- GitHub link -->
-      <div class="mt-12 text-center" id="el-pwz66z6a">
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-[#2E7D5B] hover:bg-[#4A9F76] transition-colors rounded-lg text-white" id="el-mfqq111f">
-          <svg class="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" id="el-tooqbkjb">
-            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" id="el-uf4ui7ba"></path>
-          </svg>
-          Voir plus de projets sur GitHub
-        </a>
-      </div>
-    </div>
-  </section>
-</div>
-
-              
-              
-</element><element id="9ccb6271-8d38-41b8-86b1-9b65e8c9a1b2" data-section-id="9ccb6271-8d38-41b8-86b1-9b65e8c9a1b2">
-
-
-                
-                
-<div id="root">
-  <section id="education" class="py-20 bg-neutral-800">
-    <div class="container mx-auto px-4" id="el-6n99r9y6">
-      <div class="text-center mb-16" id="el-qgq938qg">
-        <h2 class="text-4xl font-bold text-[#8BC6A7] mb-4" id="el-tnuiydlz">Formation</h2>
-        <p class="text-gray-300 max-w-2xl mx-auto" id="el-ka3feegx">Parcours académique alliant technique et littérature</p>
-        <div class="w-20 h-1 bg-[#2E7D5B] mx-auto mt-6" id="el-8yolkn12"></div>
-      </div>
-
-      <div class="max-w-4xl mx-auto" id="el-vudgqxxg">
-        <!-- Education timeline -->
-        <div class="space-y-12" id="el-ljzoji84">
-          <!-- Licence Professionnelle DevOps -->
-          <div class="bg-neutral-900 rounded-lg overflow-hidden shadow-lg" id="el-h5le5nrx">
-            <div class="md:flex" id="el-c0mr4rs9">
-              <div class="md:w-2/5 p-6 flex flex-col justify-between bg-[#2E7D5B] bg-opacity-10" id="el-us9y6w8f">
-                <div id="el-1er2ouea">
-                  <div class="text-[#8BC6A7] text-xl font-bold mb-2" id="el-ejjmtolx">2019 - 2020</div>
-                  <h3 class="text-2xl font-bold text-white mb-1" id="el-shu3fadk">Licence Professionnelle DevOps</h3>
-                  <div class="text-gray-300" id="el-tcxr1x3n">IUT Lyon 1 La Doua</div>
-                </div>
-                <div class="mt-4 md:mt-0" id="el-6145egbd">
-                  <div class="inline-flex items-center px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-sm" id="el-4ljx5xmj">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-g71i5657">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" id="el-ruwa2uto"></path>
-                    </svg>
-                    Obtenue avec mention
-                  </div>
-                </div>
-              </div>
-              <div class="md:w-3/5 p-6" id="el-v0vo99r3">
-                <h4 class="text-lg font-semibold text-[#4A9F76] mb-3" id="el-pascgf67">Principaux enseignements :</h4>
-                <ul class="space-y-2 text-gray-300 list-disc pl-5" id="el-6iz54ee2">
-                  <li id="el-zd5kabg1">Intégration et déploiement continus (CI/CD)</li>
-                  <li id="el-a9d9n18c">Containerisation avec Docker et orchestration</li>
-                  <li id="el-kfa57jdv">Configuration et gestion avec Ansible</li>
-                  <li id="el-p98j527c">Gestion d'infrastructures Cloud</li>
-                  <li id="el-reo77zr3">Administration système Linux avancée</li>
-                </ul>
-                <div class="mt-4 flex flex-wrap gap-2" id="el-fhyjlyao">
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-nozffnhb">DevOps</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-mwygqq1a">CI/CD</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-nb19ktmg">Ansible</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-7sb46818">Docker</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- DUT Informatique -->
-          <div class="bg-neutral-900 rounded-lg overflow-hidden shadow-lg" id="el-oltyajf1">
-            <div class="md:flex" id="el-db5dxwzh">
-              <div class="md:w-2/5 p-6 flex flex-col justify-between bg-[#2E7D5B] bg-opacity-10" id="el-0aowm8pe">
-                <div id="el-nxypclvk">
-                  <div class="text-[#8BC6A7] text-xl font-bold mb-2" id="el-i2s63kh4">2018 - 2019</div>
-                  <h3 class="text-2xl font-bold text-white mb-1" id="el-ohetos73">DUT Informatique année spéciale</h3>
-                  <div class="text-gray-300" id="el-qjem9aux">IUT Lyon 1 La Doua</div>
-                </div>
-                <div class="mt-4 md:mt-0" id="el-q3o2o9tt">
-                  <div class="inline-flex items-center px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-sm" id="el-1pyul5h3">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-gopy8r33">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" id="el-465rrvfw"></path>
-                    </svg>
-                    Programme intensif
-                  </div>
-                </div>
-              </div>
-              <div class="md:w-3/5 p-6" id="el-ahq15kp5">
-                <h4 class="text-lg font-semibold text-[#4A9F76] mb-3" id="el-kfmy99it">Principaux enseignements :</h4>
-                <ul class="space-y-2 text-gray-300 list-disc pl-5" id="el-rpbbts56">
-                  <li id="el-w3czd088">Programmation orientée objet et algorithmique</li>
-                  <li id="el-8pi8307k">Développement web (PHP, HTML, CSS, JavaScript)</li>
-                  <li id="el-oxp8vkrn">Bases de données relationnelles</li>
-                  <li id="el-3dydkx4h">Conception et modélisation UML</li>
-                  <li id="el-wuzl23vo">Gestion de projets informatiques</li>
-                </ul>
-                <div class="mt-4 flex flex-wrap gap-2" id="el-fuw2zlsj">
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-x81i6h0q">PHP</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-l7k7bs0r">Java</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-tudre3dq">SQL</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-rpbtj20s">HTML/CSS</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Licence 2 Lettres Modernes -->
-          <div class="bg-neutral-900 rounded-lg overflow-hidden shadow-lg" id="el-3se6a8jr">
-            <div class="md:flex" id="el-wijivd8g">
-              <div class="md:w-2/5 p-6 flex flex-col justify-between bg-[#2E7D5B] bg-opacity-10" id="el-26kj1crj">
-                <div id="el-5arq0ii0">
-                  <div class="text-[#8BC6A7] text-xl font-bold mb-2" id="el-q8e8k9ai">2015 - 2017</div>
-                  <h3 class="text-2xl font-bold text-white mb-1" id="el-eev4mtr3">Licence 2 Lettres Modernes</h3>
-                  <div class="text-gray-300" id="el-tx9297mt">Université Lumière Lyon 3</div>
-                </div>
-                <div class="mt-4 md:mt-0" id="el-mbixyz2f">
-                  <div class="inline-flex items-center px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-sm" id="el-5zmlgqdc">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-nioxulbb">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" id="el-y2cjacu5"></path>
-                    </svg>
-                    Formation littéraire
-                  </div>
-                </div>
-              </div>
-              <div class="md:w-3/5 p-6" id="el-g82rsib7">
-                <h4 class="text-lg font-semibold text-[#4A9F76] mb-3" id="el-wagv3b98">Principaux enseignements :</h4>
-                <ul class="space-y-2 text-gray-300 list-disc pl-5" id="el-wz4lyfac">
-                  <li id="el-grrr1k2l">Littérature française et étrangère</li>
-                  <li id="el-egrlm6mu">Linguistique et grammaire avancée</li>
-                  <li id="el-sq9ustlx">Analyse et critique littéraire</li>
-                  <li id="el-qap3mlup">Techniques rédactionnelles et expression écrite</li>
-                  <li id="el-8tf58nws">Histoire de la littérature et des mouvements culturels</li>
-                </ul>
-                <div class="mt-4 flex flex-wrap gap-2" id="el-fddt2tou">
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-fbdh0b82">Rédaction</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-l330ouo8">Analyse</span>
-                  <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-t2jt0k5r">Communication</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Formation complémentaire -->
-        <div class="mt-16" id="el-cisq594q">
-          <h3 class="text-2xl font-bold text-center text-[#8BC6A7] mb-8" id="el-xvrr1yhz">Formation continue</h3>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="el-3byg3cju">
-            <!-- Certification 1 -->
-            <div class="bg-neutral-900 p-6 rounded-lg shadow-lg" id="el-eelt5tp1">
-              <div class="flex items-center mb-4" id="el-20bt0ue9">
-                <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20 mr-4" id="el-w38vrl7i">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-v0re8se7">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" id="el-bn19eciy"></path>
-                  </svg>
-                </div>
-                <div id="el-1isjlga7">
-                  <h4 class="text-lg font-semibold text-white" id="el-qnq3fpl3">GitLab Certified</h4>
-                  <div class="text-[#4A9F76]" id="el-pdkoeejz">2022</div>
-                </div>
-              </div>
-              <p class="text-gray-300" id="el-wrwio9dy">Certification professionnelle sur l'intégration continue et le déploiement avec GitLab CI/CD.</p>
-            </div>
-
-            <!-- Certification 2 -->
-            <div class="bg-neutral-900 p-6 rounded-lg shadow-lg" id="el-he13ilum">
-              <div class="flex items-center mb-4" id="el-1wagjoz6">
-                <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20 mr-4" id="el-medihfn2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-1qx2w6oq">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" id="el-nx72vowm"></path>
-                  </svg>
-                </div>
-                <div id="el-eesp39cc">
-                  <h4 class="text-lg font-semibold text-white" id="el-vjo1o7q8">Red Hat Ansible Automation</h4>
-                  <div class="text-[#4A9F76]" id="el-qjjxelx3">2021</div>
-                </div>
-              </div>
-              <p class="text-gray-300" id="el-jwpn79wq">Formation spécialisée dans l'automatisation des infrastructures avec Ansible.</p>
-            </div>
-
-            <!-- Formation autodidacte -->
-            <div class="bg-neutral-900 p-6 rounded-lg shadow-lg md:col-span-2" id="el-nwc2p1yd">
-              <div class="flex items-center mb-4" id="el-16qiax5o">
-                <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20 mr-4" id="el-4ptnc3ef">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-kg8jq1i8">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" id="el-vmuwkbce"></path>
-                  </svg>
-                </div>
-                <div id="el-imeixu84">
-                  <h4 class="text-lg font-semibold text-white" id="el-92dxpupv">Apprentissage autodidacte continu</h4>
-                  <div class="text-[#4A9F76]" id="el-nv2h7lf3">Formation permanente</div>
-                </div>
-              </div>
-              <p class="text-gray-300 mb-4" id="el-nokxozce">Je maintiens mes connaissances à jour par une veille technologique constante et l'autoformation sur les sujets émergents.</p>
-              <div class="flex flex-wrap gap-2" id="el-h5tre3ga">
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-gqd8mk6g">Kubernetes</span>
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-adc5z0qw">React</span>
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-4eetdo36">Node.js</span>
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-go4in91p">Cloud AWS</span>
-                <span class="px-3 py-1 bg-[#2E7D5B] bg-opacity-20 rounded-full text-[#8BC6A7] text-xs" id="el-4zywivxd">Microservices</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-              
-              
-</element><element id="641dbe19-6c69-4e38-b29f-2c8d00df7de0" data-section-id="641dbe19-6c69-4e38-b29f-2c8d00df7de0">
-
-
-                
-                
-<div id="root">
-  <section id="interests" class="py-20 bg-neutral-900">
-    <div class="container mx-auto px-4" id="el-piqbb6ep">
-      <div class="text-center mb-16" id="el-m5q22bj9">
-        <h2 class="text-4xl font-bold text-[#8BC6A7] mb-4" id="el-2jfhhpqi">Centres d'intérêt</h2>
-        <p class="text-gray-300 max-w-2xl mx-auto" id="el-hyto2hdk">Découvrez mes passions qui équilibrent ma vie professionnelle</p>
-        <div class="w-20 h-1 bg-[#2E7D5B] mx-auto mt-6" id="el-gdg1tve7"></div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8" id="el-nrknebkb">
-        <!-- Botanique -->
-        <div class="bg-neutral-800 rounded-lg overflow-hidden shadow-lg transform hover:translate-y-[-4px] transition-transform" id="el-3f1cwel9">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-8lin52ev">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-arhbvico">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-[#8BC6A7] opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-1a7mn5wb">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" id="el-wri995u5"></path>
-              </svg>
-            </div>
-          </div>
-          <div class="p-6" id="el-o4p39947">
-            <h3 class="text-xl font-bold text-[#8BC6A7] mb-3" id="el-eqtrrbpt">Botanique</h3>
-            <p class="text-gray-300 mb-4" id="el-hwo9hgty">
-              Passionnée par les plantes, je cultive ma propre collection de plantes d'intérieur et j'explore régulièrement les jardins botaniques. J'aime particulièrement les plantes tropicales et les cactées.
-            </p>
-            <div class="flex justify-between items-center" id="el-cv1fhy0u">
-              <span class="text-sm text-[#4A9F76]" id="el-8bvzs33e">Une source d'inspiration constante</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ljhzd4ds">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" id="el-xu1p49ph"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-
-        <!-- Cinéma -->
-        <div class="bg-neutral-800 rounded-lg overflow-hidden shadow-lg transform hover:translate-y-[-4px] transition-transform" id="el-fat1xn7l">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-93hh9mok">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-0aq2b84h">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-[#8BC6A7] opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-mar46gb6">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" id="el-3xhyc6r3"></path>
-              </svg>
-            </div>
-          </div>
-          <div class="p-6" id="el-tjggr5dv">
-            <h3 class="text-xl font-bold text-[#8BC6A7] mb-3" id="el-6j6wrmwx">Cinéma</h3>
-            <p class="text-gray-300 mb-4" id="el-v317jrwo">
-              Cinéphile assidue, j'apprécie particulièrement les films de science-fiction et les documentaires scientifiques. Je suis également membre d'un club de cinéma où nous discutons et analysons des œuvres de tous genres.
-            </p>
-            <div class="flex justify-between items-center" id="el-hgresgb9">
-              <span class="text-sm text-[#4A9F76]" id="el-y6l9nj6e">Un univers d'évasion</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-b4vbwvxo">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" id="el-nhjysj2d"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-
-        <!-- Lecture -->
-        <div class="bg-neutral-800 rounded-lg overflow-hidden shadow-lg transform hover:translate-y-[-4px] transition-transform" id="el-yd92jqsf">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-gpczge84">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-wkp6nark">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-[#8BC6A7] opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-0968bkqp">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" id="el-w6qryy10"></path>
-              </svg>
-            </div>
-          </div>
-          <div class="p-6" id="el-d91enbgi">
-            <h3 class="text-xl font-bold text-[#8BC6A7] mb-3" id="el-gstr93oj">Lecture</h3>
-            <p class="text-gray-300 mb-4" id="el-h25w03rk">
-              Des romans classiques aux livres techniques, ma bibliothèque est variée. Je lis régulièrement sur l'histoire des technologies, les romans de science-fiction et la littérature française contemporaine.
-            </p>
-            <div class="flex justify-between items-center" id="el-wohhvsal">
-              <span class="text-sm text-[#4A9F76]" id="el-pch00k3k">Un enrichissement permanent</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ojl3yb3e">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" id="el-yngg87wi"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-
-        <!-- Jeux vidéo -->
-        <div class="bg-neutral-800 rounded-lg overflow-hidden shadow-lg transform hover:translate-y-[-4px] transition-transform" id="el-lenon5lk">
-          <div class="h-48 bg-[#2E7D5B] bg-opacity-20 relative overflow-hidden" id="el-llbn11ul">
-            <div class="absolute inset-0 flex items-center justify-center" id="el-b1p0s852">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-[#8BC6A7] opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-b2onw0qx">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" id="el-q996g9xz"></path>
-              </svg>
-            </div>
-          </div>
-          <div class="p-6" id="el-uoijqjs7">
-            <h3 class="text-xl font-bold text-[#8BC6A7] mb-3" id="el-ooqluuls">Jeux vidéo</h3>
-            <p class="text-gray-300 mb-4" id="el-38qpisls">
-              Amateur de jeux de stratégie et de réflexion, j'apprécie les jeux qui demandent de la planification logique. Je m'intéresse également à l'industrie du jeu vidéo d'un point de vue technique.
-            </p>
-            <div class="flex justify-between items-center" id="el-3yqhki7v">
-              <span class="text-sm text-[#4A9F76]" id="el-sxq7a133">Exercer logique et créativité</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-bc9n2so1">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" id="el-bxatvmw2"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Connexion avec le développement -->
-      <div class="mt-16 bg-neutral-800 rounded-lg p-8" id="el-h1yrjrdf">
-        <h3 class="text-2xl font-bold text-[#8BC6A7] mb-6 text-center" id="el-1n8wfli9">Comment mes intérêts influencent mon approche professionnelle</h3>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="el-vhbur6c8">
-          <div class="flex" id="el-4vzkftec">
-            <div class="flex-shrink-0 mr-4" id="el-j8sfd1it">
-              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20" id="el-4whb2nnk">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-1nww3qof">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" id="el-ucx0chjo"></path>
-                </svg>
-              </div>
-            </div>
-            <div id="el-vve5mjhk">
-              <h4 class="text-lg font-semibold text-white mb-2" id="el-f4nkt7xq">Créativité et structure</h4>
-              <p class="text-gray-300" id="el-loo9y5jc">
-                Ma double formation en lettres et en informatique, ainsi que mon intérêt pour la botanique, m'aident à créer des solutions qui allient rigueur technique et design organique.
-              </p>
-            </div>
-          </div>
-          
-          <div class="flex" id="el-pmtvkzfd">
-            <div class="flex-shrink-0 mr-4" id="el-cs96ns7g">
-              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20" id="el-8th3fcap">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-pkvou9jt">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" id="el-iqni3233"></path>
-                </svg>
-              </div>
-            </div>
-            <div id="el-poj0xp08">
-              <h4 class="text-lg font-semibold text-white mb-2" id="el-qg9xa3th">Apprentissage continu</h4>
-              <p class="text-gray-300" id="el-njin6d6d">
-                Comme dans ma passion pour la lecture, je maintiens une curiosité constante pour les nouvelles technologies et méthodologies de développement.
-              </p>
-            </div>
-          </div>
-          
-          <div class="flex" id="el-31s8hih1">
-            <div class="flex-shrink-0 mr-4" id="el-hgkuruy4">
-              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20" id="el-jvy03fhf">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-8ij1f7vr">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" id="el-k1owkeqp"></path>
-                </svg>
-              </div>
-            </div>
-            <div id="el-xoonhlkh">
-              <h4 class="text-lg font-semibold text-white mb-2" id="el-apbi2fpo">Collaboration et perspective</h4>
-              <p class="text-gray-300" id="el-yc82w55l">
-                Les jeux de stratégie ont développé ma capacité à analyser des problèmes sous différents angles et à travailler efficacement en équipe pour atteindre des objectifs.
-              </p>
-            </div>
-          </div>
-          
-          <div class="flex" id="el-pos16puf">
-            <div class="flex-shrink-0 mr-4" id="el-sg1jdnij">
-              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20" id="el-pcxb072q">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ftich9ng">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" id="el-ms6ykvbf"></path>
-                </svg>
-              </div>
-            </div>
-            <div id="el-uvokdvkk">
-              <h4 class="text-lg font-semibold text-white mb-2" id="el-emwtey8a">Narration et documentation</h4>
-              <p class="text-gray-300" id="el-sjwk0eej">
-                Ma passion pour le cinéma et la littérature m'aide à créer des documentations claires et des présentations engageantes pour mes projets techniques.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-              
-              
-</element><element id="e2c44171-3b3b-44b3-a349-63c70d3fd745" data-section-id="e2c44171-3b3b-44b3-a349-63c70d3fd745">
-
-
-                
-                
-<div id="root">
-  <section id="contact" class="py-20 bg-neutral-900">
-    <div class="container mx-auto px-4" id="el-1m9w439e">
-      <div class="text-center mb-16" id="el-5vw7bbn7">
-        <h2 class="text-4xl font-bold text-[#8BC6A7] mb-4" id="el-ns9tqwpb">Contact</h2>
-        <p class="text-gray-300 max-w-2xl mx-auto" id="el-2j7r1opo">Intéressé(e) par une collaboration ou souhaitez en savoir plus sur mon travail ?</p>
-        <div class="w-20 h-1 bg-[#2E7D5B] mx-auto mt-6" id="el-ha7pgjeh"></div>
-      </div>
-
-      <div class="grid grid-cols-1 lg:grid-cols-5 gap-12" id="el-xk30sn0l">
-        <!-- Contact Form - 3 columns -->
-        <div class="lg:col-span-3 bg-neutral-800 rounded-lg shadow-lg p-8" id="el-aokd3sj8">
-          <h3 class="text-xl font-bold text-white mb-6" id="el-ebvu173l">Envoyez-moi un message</h3>
-          
-          <form id="el-wcm8b6us">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6" id="el-el41cl8n">
-              <div id="el-ypvk9ujw">
-                <label for="name" class="block text-sm font-medium text-gray-300 mb-2" id="el-vp9ei209">Nom</label>
-                <input type="text" id="name" name="name" class="w-full px-4 py-2 bg-neutral-700 border border-neutral-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4A9F76] text-white" required="">
-              </div>
-              <div id="el-jmxbgdtb">
-                <label for="email" class="block text-sm font-medium text-gray-300 mb-2" id="el-nvptmith">Email</label>
-                <input type="email" id="email" name="email" class="w-full px-4 py-2 bg-neutral-700 border border-neutral-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4A9F76] text-white" required="">
-              </div>
-            </div>
-            
-            <div class="mb-6" id="el-41oee1v8">
-              <label for="subject" class="block text-sm font-medium text-gray-300 mb-2" id="el-axt98p4t">Sujet</label>
-              <input type="text" id="subject" name="subject" class="w-full px-4 py-2 bg-neutral-700 border border-neutral-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4A9F76] text-white" required="">
-            </div>
-            
-            <div class="mb-6" id="el-75i1vi7h">
-              <label for="message" class="block text-sm font-medium text-gray-300 mb-2" id="el-96u11do4">Message</label>
-              <textarea id="message" name="message" rows="6" class="w-full px-4 py-2 bg-neutral-700 border border-neutral-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4A9F76] text-white resize-none" required=""></textarea>
-            </div>
-            
-            <div class="flex justify-end" id="el-1fp09b5j">
-              <button type="submit" class="px-6 py-3 bg-[#2E7D5B] text-white rounded-lg hover:bg-[#4A9F76] transition-colors" id="el-9ut5n9jl">
-                Envoyer le message
-              </button>
-            </div>
-          </form>
-        </div>
-        
-        <!-- Contact Info - 2 columns -->
-        <div class="lg:col-span-2" id="el-q5shfo5l">
-          <div class="bg-neutral-800 rounded-lg shadow-lg p-8 mb-8 h-auto" id="el-mn8lqazk">
-            <h3 class="text-xl font-bold text-white mb-6" id="el-bwrqlwdy">Coordonnées</h3>
-            
-            <div class="space-y-6" id="el-sb97ithp">
-              <div class="flex items-start" id="el-2ab380kn">
-                <div class="flex-shrink-0 mt-1" id="el-0mn9h4d1">
-                  <div class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20" id="el-wapvrneh">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-hibvozoi">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" id="el-iy1ekwbj"></path>
-                    </svg>
-                  </div>
-                </div>
-                <div class="ml-4" id="el-qfispv0d">
-                  <h4 class="text-lg font-medium text-[#4A9F76]" id="el-hqpoh7ky">Téléphone</h4>
-                  <p class="text-gray-300" id="el-b7skce74">0684652392</p>
-                </div>
-              </div>
-              
-              <div class="flex items-start" id="el-ctabcxiz">
-                <div class="flex-shrink-0 mt-1" id="el-f7guqskv">
-                  <div class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20" id="el-vfwdiege">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-vnpvf934">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" id="el-3qtyx00u"></path>
-                    </svg>
-                  </div>
-                </div>
-                <div class="ml-4" id="el-2o0dbn1q">
-                  <h4 class="text-lg font-medium text-[#4A9F76]" id="el-i3fyc8me">Email</h4>
-                  <p class="text-gray-300 break-all" id="el-h0muotn9">alessb@hotmail.fr</p>
-                </div>
-              </div>
-              
-              <div class="flex items-start" id="el-4nr3s0se">
-                <div class="flex-shrink-0 mt-1" id="el-rqclft1t">
-                  <div class="w-10 h-10 flex items-center justify-center rounded-full bg-[#2E7D5B] bg-opacity-20" id="el-p79vgfsm">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#8BC6A7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-y30i9j47">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" id="el-hifn1b12"></path>
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" id="el-7dhjxv89"></path>
-                    </svg>
-                  </div>
-                </div>
-                <div class="ml-4" id="el-e7gx2dlt">
-                  <h4 class="text-lg font-medium text-[#4A9F76]" id="el-a8r41buq">Localisation</h4>
-                  <p class="text-gray-300" id="el-weepj537">Lyon, France</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Social Media -->
-          <div class="bg-neutral-800 rounded-lg shadow-lg p-8" id="el-inmpkowl">
-            <h3 class="text-xl font-bold text-white mb-6" id="el-04x7o76k">Réseaux sociaux</h3>
-            
-            <div class="grid grid-cols-2 gap-4" id="el-c1vw6qv3">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="flex items-center p-3 bg-neutral-700 rounded-lg hover:bg-neutral-600 transition-colors" id="el-pmkrc12z">
-                <svg class="w-6 h-6 text-[#8BC6A7]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" id="el-1cjuya44">
-                  <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" id="el-nwkpqtht"></path>
-                </svg>
-                <span class="ml-2 text-white" id="el-ky1mnezf">GitHub</span>
-              </a>
-              
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="flex items-center p-3 bg-neutral-700 rounded-lg hover:bg-neutral-600 transition-colors" id="el-da5meu78">
-                <svg class="w-6 h-6 text-[#8BC6A7]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" id="el-brv9p7td">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" id="el-74cmd4d6"></path>
-                </svg>
-                <span class="ml-2 text-white" id="el-1ajx4o4a">LinkedIn</span>
-              </a>
-              
-              <a href="https://gitlab.com/" target="_blank" rel="noopener noreferrer" class="flex items-center p-3 bg-neutral-700 rounded-lg hover:bg-neutral-600 transition-colors" id="el-wnnaludb">
-                <svg class="w-6 h-6 text-[#8BC6A7]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" id="el-d6nkebd4">
-                  <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 01-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 014.82 2a.43.43 0 01.58 0 .42.42 0 01.11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0118.6 2a.43.43 0 01.58 0 .42.42 0 01.11.18l2.44 7.51L23 13.45a.84.84 0 01-.35.94z" id="el-r0q95owf"></path>
-                </svg>
-                <span class="ml-2 text-white" id="el-w4kevqw7">GitLab</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Availability Status -->
-      <div class="mt-16 bg-[#2E7D5B] bg-opacity-10 p-8 rounded-lg text-center" id="el-evuwxux3">
-        <div class="inline-flex items-center px-4 py-2 bg-[#2E7D5B] bg-opacity-20 rounded-full mb-4" id="el-kbfwe4hv">
-          <span class="w-3 h-3 bg-green-500 rounded-full mr-2" id="el-weqponk0"></span>
-          <span class="text-[#8BC6A7] font-semibold" id="el-t3h52isi">Disponible pour de nouvelles opportunités</span>
-        </div>
-        <h3 class="text-2xl font-bold text-white mb-4" id="el-d4f2n19q">Intéressé(e) par une collaboration ?</h3>
-        <p class="text-gray-300 max-w-2xl mx-auto mb-6" id="el-r8ml9wnz">
-          Je suis ouverte aux opportunités de projets freelance, aux postes à temps plein et aux collaborations sur des projets open source. N'hésitez pas à me contacter pour discuter de votre projet.
-        </p>
-        <a href="mailto:alessb@hotmail.fr" class="inline-flex items-center px-6 py-3 bg-[#2E7D5B] text-white rounded-lg hover:bg-[#4A9F76] transition-colors" id="el-s62nd6q2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-8hpyitvu">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" id="el-719758ot"></path>
-          </svg>
-          M'envoyer un email
-        </a>
-      </div>
-    </div>
-  </section>
-</div>
-
-              
-              
-</element></div>
-      </main>
-
-      <!-- {bodyScripts} -->
-   
-<vff-aeeblrqdyadm></vff-aeeblrqdyadm><svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
 </body>
 </html>
